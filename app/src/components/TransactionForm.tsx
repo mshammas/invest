@@ -6,6 +6,8 @@ interface TransactionFormProps {
   onAdd: (t: Omit<Transaction, 'id'>) => void
 }
 
+type QuantityUnit = 'g' | 'mg'
+
 function today(): string {
   return new Date().toISOString().slice(0, 10)
 }
@@ -13,15 +15,17 @@ function today(): string {
 export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
   const [date, setDate] = useState(today())
   const [type, setType] = useState<TransactionType>('buy')
-  const [grams, setGrams] = useState('')
-  const [pricePerGram, setPricePerGram] = useState('')
+  const [quantity, setQuantity] = useState('')
+  const [quantityUnit, setQuantityUnit] = useState<QuantityUnit>('mg')
+  const [totalAmount, setTotalAmount] = useState('')
   const [vendor, setVendor] = useState('')
   const [notes, setNotes] = useState('')
 
-  const gramsNum = parseFloat(grams)
-  const priceNum = parseFloat(pricePerGram)
-  const isValid = gramsNum > 0 && priceNum > 0
-  const totalAmount = isValid ? gramsNum * priceNum : 0
+  const quantityNum = parseFloat(quantity)
+  const totalAmountNum = parseFloat(totalAmount)
+  const isValid = quantityNum > 0 && totalAmountNum > 0
+  const gramsNum = quantityUnit === 'mg' ? quantityNum / 1000 : quantityNum
+  const pricePerGram = isValid ? totalAmountNum / gramsNum : 0
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -30,14 +34,14 @@ export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
       date,
       type,
       grams: gramsNum,
-      pricePerGram: priceNum,
+      pricePerGram,
       currency,
-      totalAmount,
+      totalAmount: totalAmountNum,
       vendor: vendor.trim() || undefined,
       notes: notes.trim() || undefined,
     })
-    setGrams('')
-    setPricePerGram('')
+    setQuantity('')
+    setTotalAmount('')
     setVendor('')
     setNotes('')
   }
@@ -60,27 +64,37 @@ export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
       </label>
 
       <label className="text-sm text-slate-600">
-        Grams
-        <input
-          type="number"
-          min="0"
-          step="0.0001"
-          className={inputClass}
-          value={grams}
-          onChange={(e) => setGrams(e.target.value)}
-          required
-        />
+        Quantity
+        <div className="mt-1 flex gap-1">
+          <input
+            type="number"
+            min="0"
+            step="0.001"
+            className={`${inputClass} mt-0`}
+            value={quantity}
+            onChange={(e) => setQuantity(e.target.value)}
+            required
+          />
+          <select
+            className="mt-0 rounded-md border border-slate-300 px-1"
+            value={quantityUnit}
+            onChange={(e) => setQuantityUnit(e.target.value as QuantityUnit)}
+          >
+            <option value="mg">mg</option>
+            <option value="g">g</option>
+          </select>
+        </div>
       </label>
 
       <label className="text-sm text-slate-600">
-        Price / gram ({currency})
+        Total amount ({currency})
         <input
           type="number"
           min="0"
           step="0.01"
           className={inputClass}
-          value={pricePerGram}
-          onChange={(e) => setPricePerGram(e.target.value)}
+          value={totalAmount}
+          onChange={(e) => setTotalAmount(e.target.value)}
           required
         />
       </label>
@@ -96,7 +110,7 @@ export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
       </label>
 
       <div className="flex flex-col justify-end text-sm text-slate-600">
-        Total: <span className="font-medium text-slate-900">{totalAmount.toFixed(2)} {currency}</span>
+        Price / gram: <span className="font-medium text-slate-900">{pricePerGram.toFixed(2)} {currency}</span>
       </div>
 
       <div className="col-span-2 flex items-end sm:col-span-4">
