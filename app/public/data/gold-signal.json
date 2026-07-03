@@ -1,0 +1,9 @@
+{
+  "status": "ACCUMULATING_HISTORY",
+  "asOf": "2026-07-03T05:35:41.625Z",
+  "priceUsdPerOz": 4179.600098,
+  "trailingHighUsdPerOz": 4179.600098,
+  "pctBelowHigh": 0,
+  "daysOfHistory": 1,
+  "message": "Still building up price history (1/14 days) before suggesting buy/sell timing."
+}
