@@ -98,9 +98,11 @@ export default function App() {
     : null
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8">
-      <h1 className="mb-1 text-2xl font-semibold text-slate-900">GoldTrack</h1>
-      <p className="mb-6 text-sm text-slate-500">Track your Digital Gold investments — all data stays on your device.</p>
+    <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
+      <h1 className="mb-1 text-3xl font-bold text-slate-900">GoldTrack</h1>
+      <p className="mb-6 text-base text-slate-600">
+        Track your Digital Gold investments — all data stays on your device.
+      </p>
 
       <div className="mb-6">
         <SignalBanner />
@@ -116,16 +118,16 @@ export default function App() {
       />
 
       {!portfolioFile && (
-        <p className="mt-6 text-sm text-slate-500">
-          Click <span className="font-medium">New</span> to start a portfolio, or{' '}
-          <span className="font-medium">Open…</span> an existing .gtrack file.
+        <p className="mt-6 text-base text-slate-600">
+          Click <span className="font-semibold">New</span> to start a portfolio, or{' '}
+          <span className="font-semibold">Open…</span> an existing .gtrack file.
         </p>
       )}
 
       {portfolioFile && summary && (
         <div className="mt-6 space-y-6">
           {restoredDraft && !fileHandle && (
-            <p className="rounded-md border border-amber-300 bg-amber-50 p-2 text-xs text-amber-800">
+            <p className="rounded-lg border-2 border-amber-300 bg-amber-50 p-3 text-base text-amber-800">
               Restored an unsaved session from your last visit. Use Save As… to link it to a file on disk.
             </p>
           )}

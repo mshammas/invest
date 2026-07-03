@@ -2,9 +2,19 @@
 
 html {
   color-scheme: light;
+  /* Larger base size and looser line-height read more comfortably for older eyes. */
+  font-size: 112.5%;
 }
 
 body {
   margin: 0;
   background: #fff;
+  color: #1e293b;
+  line-height: 1.55;
+}
+
+button,
+input,
+select {
+  font-size: 1rem;
 }

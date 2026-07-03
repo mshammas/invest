@@ -30,22 +30,20 @@ export function SignalBanner() {
   if (!loaded) return null
   if (!signal) {
     return (
-      <div className="rounded-lg border border-slate-300 bg-slate-50 p-4 text-sm text-slate-600">
+      <div className="rounded-lg border-2 border-slate-300 bg-slate-50 p-5 text-base text-slate-600">
         Couldn't load today's gold market signal.
       </div>
     )
   }
 
   return (
-    <div className={`rounded-lg border p-4 ${STYLES[signal.status]}`}>
-      <div className="flex items-center justify-between gap-4">
-        <span className="font-semibold">{LABELS[signal.status]}</span>
-        <span className="text-xs opacity-70">
-          as of {new Date(signal.asOf).toLocaleDateString()}
-        </span>
+    <div className={`rounded-lg border-2 p-5 ${STYLES[signal.status]}`}>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <span className="text-lg font-bold">{LABELS[signal.status]}</span>
+        <span className="text-sm opacity-70">as of {new Date(signal.asOf).toLocaleDateString()}</span>
       </div>
-      <p className="mt-1 text-sm">{signal.message}</p>
-      <p className="mt-1 text-xs opacity-60">
+      <p className="mt-2 text-base">{signal.message}</p>
+      <p className="mt-2 text-sm opacity-70">
         Heuristic based on public spot gold price trends — not financial advice. Backed by price
         history back to {new Date(signal.earliestHistoryDate).getFullYear()} (
         {signal.totalHistoryEntries.toLocaleString()} data points).

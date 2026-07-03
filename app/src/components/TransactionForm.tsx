@@ -46,16 +46,20 @@ export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
     setNotes('')
   }
 
-  const inputClass = 'mt-1 block w-full rounded-md border border-slate-300 px-2 py-1'
+  const inputClass = 'mt-2 block w-full rounded-lg border-2 border-slate-300 px-3 py-2.5 text-base'
+  const labelClass = 'text-base font-medium text-slate-700'
 
   return (
-    <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-3 rounded-lg border border-slate-200 p-4 sm:grid-cols-4">
-      <label className="text-sm text-slate-600">
+    <form
+      onSubmit={handleSubmit}
+      className="grid grid-cols-1 gap-5 rounded-lg border-2 border-slate-200 p-5 sm:grid-cols-2"
+    >
+      <label className={labelClass}>
         Date
         <input type="date" className={inputClass} value={date} onChange={(e) => setDate(e.target.value)} required />
       </label>
 
-      <label className="text-sm text-slate-600">
+      <label className={labelClass}>
         Type
         <select className={inputClass} value={type} onChange={(e) => setType(e.target.value as TransactionType)}>
           <option value="buy">Buy</option>
@@ -63,9 +67,9 @@ export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
         </select>
       </label>
 
-      <label className="text-sm text-slate-600">
+      <label className={labelClass}>
         Quantity
-        <div className="mt-1 flex gap-1">
+        <div className="mt-2 flex gap-2">
           <input
             type="number"
             min="0"
@@ -76,7 +80,7 @@ export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
             required
           />
           <select
-            className="mt-0 rounded-md border border-slate-300 px-1"
+            className="mt-0 rounded-lg border-2 border-slate-300 px-2 text-base"
             value={quantityUnit}
             onChange={(e) => setQuantityUnit(e.target.value as QuantityUnit)}
           >
@@ -86,7 +90,7 @@ export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
         </div>
       </label>
 
-      <label className="text-sm text-slate-600">
+      <label className={labelClass}>
         Total amount ({currency})
         <input
           type="number"
@@ -99,25 +103,28 @@ export function TransactionForm({ currency, onAdd }: TransactionFormProps) {
         />
       </label>
 
-      <label className="text-sm text-slate-600">
+      <label className={labelClass}>
         Vendor (optional)
         <input className={inputClass} value={vendor} onChange={(e) => setVendor(e.target.value)} />
       </label>
 
-      <label className="col-span-2 text-sm text-slate-600">
+      <label className={labelClass}>
         Notes (optional)
         <input className={inputClass} value={notes} onChange={(e) => setNotes(e.target.value)} />
       </label>
 
-      <div className="flex flex-col justify-end text-sm text-slate-600">
-        Price / gram: <span className="font-medium text-slate-900">{pricePerGram.toFixed(2)} {currency}</span>
+      <div className="text-base text-slate-700 sm:col-span-2">
+        Price / gram:{' '}
+        <span className="font-semibold text-slate-900">
+          {pricePerGram.toFixed(2)} {currency}
+        </span>
       </div>
 
-      <div className="col-span-2 flex items-end sm:col-span-4">
+      <div className="sm:col-span-2">
         <button
           type="submit"
           disabled={!isValid}
-          className="rounded-md bg-slate-900 px-4 py-1.5 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-40"
+          className="min-h-[48px] w-full rounded-lg bg-slate-900 px-6 py-3 text-base font-semibold text-white hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40 sm:w-auto"
         >
           Add transaction
         </button>
