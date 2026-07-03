@@ -52,6 +52,23 @@ signal — it just skips the Telegram notification and logs a warning.
 Use the **Run workflow** button on `gold-signal.yml` in the Actions tab to test
 it immediately rather than waiting for the daily cron.
 
+### 4. Backfilling long-term price history (optional)
+`data/gold-price-history.json` starts out with only whatever the daily cron
+has collected since you deployed. To seed it with decades of prior history
+instead of waiting, run:
+
+```sh
+node scripts/backfill-gold-history.mjs
+```
+
+This pulls free, keyless data from [freegoldapi.com](https://freegoldapi.com/)
+(World Bank monthly data back to 1960, plus daily data from Yahoo Finance) and
+merges in any dates you don't already have — it never overwrites entries the
+live daily cron already recorded. Note that this only enriches the historical
+record for context; the BUY/SELL/HOLD signal itself only ever looks at the
+*actual trailing 90 calendar days*, so backfilled history alone can't produce
+a signal — it still needs real recent daily cron runs to accumulate.
+
 ## The `.gtrack` file format
 
 A `.gtrack` file is a zip archive containing:

@@ -1,6 +1,4274 @@
 [
   {
+    "date": "1960-01-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-02-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-03-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-04-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-05-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-06-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-07-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-08-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-09-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-10-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-11-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1960-12-01",
+    "priceUsdPerOz": 35.27
+  },
+  {
+    "date": "1961-01-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-02-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-03-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-04-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-05-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-06-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-07-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-08-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-09-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-10-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-11-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1961-12-01",
+    "priceUsdPerOz": 35.25
+  },
+  {
+    "date": "1962-01-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-02-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-03-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-04-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-05-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-06-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-07-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-08-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-09-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-10-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-11-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1962-12-01",
+    "priceUsdPerOz": 35.23
+  },
+  {
+    "date": "1963-01-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-02-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-03-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-04-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-05-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-06-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-07-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-08-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-09-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-10-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-11-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1963-12-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1964-01-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-02-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-03-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-04-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-05-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-06-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-07-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-08-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-09-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-10-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-11-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1964-12-01",
+    "priceUsdPerOz": 35.1
+  },
+  {
+    "date": "1965-01-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-02-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-03-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-04-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-05-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-06-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-07-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-08-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-09-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-10-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-11-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1965-12-01",
+    "priceUsdPerOz": 35.12
+  },
+  {
+    "date": "1966-01-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-02-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-03-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-04-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-05-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-06-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-07-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-08-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-09-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-10-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-11-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1966-12-01",
+    "priceUsdPerOz": 35.13
+  },
+  {
+    "date": "1967-01-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-02-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-03-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-04-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-05-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-06-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-07-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-08-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-09-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-10-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-11-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1967-12-01",
+    "priceUsdPerOz": 34.95
+  },
+  {
+    "date": "1968-01-01",
+    "priceUsdPerOz": 35.5
+  },
+  {
+    "date": "1968-02-01",
+    "priceUsdPerOz": 36
+  },
+  {
+    "date": "1968-03-01",
+    "priceUsdPerOz": 37
+  },
+  {
+    "date": "1968-04-01",
+    "priceUsdPerOz": 37.86
+  },
+  {
+    "date": "1968-05-01",
+    "priceUsdPerOz": 40.7
+  },
+  {
+    "date": "1968-06-01",
+    "priceUsdPerOz": 41.14
+  },
+  {
+    "date": "1968-07-01",
+    "priceUsdPerOz": 39.46
+  },
+  {
+    "date": "1968-08-01",
+    "priceUsdPerOz": 39.19
+  },
+  {
+    "date": "1968-09-01",
+    "priceUsdPerOz": 40.18
+  },
+  {
+    "date": "1968-10-01",
+    "priceUsdPerOz": 39.21
+  },
+  {
+    "date": "1968-11-01",
+    "priceUsdPerOz": 39.78
+  },
+  {
+    "date": "1968-12-01",
+    "priceUsdPerOz": 41.08
+  },
+  {
+    "date": "1969-01-01",
+    "priceUsdPerOz": 42.3
+  },
+  {
+    "date": "1969-02-01",
+    "priceUsdPerOz": 42.6
+  },
+  {
+    "date": "1969-03-01",
+    "priceUsdPerOz": 43.16
+  },
+  {
+    "date": "1969-04-01",
+    "priceUsdPerOz": 43.31
+  },
+  {
+    "date": "1969-05-01",
+    "priceUsdPerOz": 43.46
+  },
+  {
+    "date": "1969-06-01",
+    "priceUsdPerOz": 41.44
+  },
+  {
+    "date": "1969-07-01",
+    "priceUsdPerOz": 41.76
+  },
+  {
+    "date": "1969-08-01",
+    "priceUsdPerOz": 41.09
+  },
+  {
+    "date": "1969-09-01",
+    "priceUsdPerOz": 40.87
+  },
+  {
+    "date": "1969-10-01",
+    "priceUsdPerOz": 40.44
+  },
+  {
+    "date": "1969-11-01",
+    "priceUsdPerOz": 37.4
+  },
+  {
+    "date": "1969-12-01",
+    "priceUsdPerOz": 35.17
+  },
+  {
+    "date": "1970-01-01",
+    "priceUsdPerOz": 34.94
+  },
+  {
+    "date": "1970-02-01",
+    "priceUsdPerOz": 34.99
+  },
+  {
+    "date": "1970-03-01",
+    "priceUsdPerOz": 35.09
+  },
+  {
+    "date": "1970-04-01",
+    "priceUsdPerOz": 35.62
+  },
+  {
+    "date": "1970-05-01",
+    "priceUsdPerOz": 35.95
+  },
+  {
+    "date": "1970-06-01",
+    "priceUsdPerOz": 35.42
+  },
+  {
+    "date": "1970-07-01",
+    "priceUsdPerOz": 35.32
+  },
+  {
+    "date": "1970-08-01",
+    "priceUsdPerOz": 35.38
+  },
+  {
+    "date": "1970-09-01",
+    "priceUsdPerOz": 36.19
+  },
+  {
+    "date": "1970-10-01",
+    "priceUsdPerOz": 37.52
+  },
+  {
+    "date": "1970-11-01",
+    "priceUsdPerOz": 37.44
+  },
+  {
+    "date": "1970-12-01",
+    "priceUsdPerOz": 37.44
+  },
+  {
+    "date": "1971-01-01",
+    "priceUsdPerOz": 37.88
+  },
+  {
+    "date": "1971-02-01",
+    "priceUsdPerOz": 38.74
+  },
+  {
+    "date": "1971-03-01",
+    "priceUsdPerOz": 38.87
+  },
+  {
+    "date": "1971-04-01",
+    "priceUsdPerOz": 39.01
+  },
+  {
+    "date": "1971-05-01",
+    "priceUsdPerOz": 40.52
+  },
+  {
+    "date": "1971-06-01",
+    "priceUsdPerOz": 40.1
+  },
+  {
+    "date": "1971-07-01",
+    "priceUsdPerOz": 40.95
+  },
+  {
+    "date": "1971-08-01",
+    "priceUsdPerOz": 42.71
+  },
+  {
+    "date": "1971-09-01",
+    "priceUsdPerOz": 42.03
+  },
+  {
+    "date": "1971-10-01",
+    "priceUsdPerOz": 42.5
+  },
+  {
+    "date": "1971-11-01",
+    "priceUsdPerOz": 42.86
+  },
+  {
+    "date": "1971-12-01",
+    "priceUsdPerOz": 43.48
+  },
+  {
+    "date": "1972-01-01",
+    "priceUsdPerOz": 45.75
+  },
+  {
+    "date": "1972-02-01",
+    "priceUsdPerOz": 48.26
+  },
+  {
+    "date": "1972-03-01",
+    "priceUsdPerOz": 48.33
+  },
+  {
+    "date": "1972-04-01",
+    "priceUsdPerOz": 49.03
+  },
+  {
+    "date": "1972-05-01",
+    "priceUsdPerOz": 54.62
+  },
+  {
+    "date": "1972-06-01",
+    "priceUsdPerOz": 62.09
+  },
+  {
+    "date": "1972-07-01",
+    "priceUsdPerOz": 65.66
+  },
+  {
+    "date": "1972-08-01",
+    "priceUsdPerOz": 67.03
+  },
+  {
+    "date": "1972-09-01",
+    "priceUsdPerOz": 65.46
+  },
+  {
+    "date": "1972-10-01",
+    "priceUsdPerOz": 64.86
+  },
+  {
+    "date": "1972-11-01",
+    "priceUsdPerOz": 62.91
+  },
+  {
+    "date": "1972-12-01",
+    "priceUsdPerOz": 63.91
+  },
+  {
+    "date": "1973-01-01",
+    "priceUsdPerOz": 65.14
+  },
+  {
+    "date": "1973-02-01",
+    "priceUsdPerOz": 74.2
+  },
+  {
+    "date": "1973-03-01",
+    "priceUsdPerOz": 84.37
+  },
+  {
+    "date": "1973-04-01",
+    "priceUsdPerOz": 90.5
+  },
+  {
+    "date": "1973-05-01",
+    "priceUsdPerOz": 101.96
+  },
+  {
+    "date": "1973-06-01",
+    "priceUsdPerOz": 120.12
+  },
+  {
+    "date": "1973-07-01",
+    "priceUsdPerOz": 120.17
+  },
+  {
+    "date": "1973-08-01",
+    "priceUsdPerOz": 106.76
+  },
+  {
+    "date": "1973-09-01",
+    "priceUsdPerOz": 102.97
+  },
+  {
+    "date": "1973-10-01",
+    "priceUsdPerOz": 100.08
+  },
+  {
+    "date": "1973-11-01",
+    "priceUsdPerOz": 94.92
+  },
+  {
+    "date": "1973-12-01",
+    "priceUsdPerOz": 106.72
+  },
+  {
+    "date": "1974-01-01",
+    "priceUsdPerOz": 129.19
+  },
+  {
+    "date": "1974-02-01",
+    "priceUsdPerOz": 150.13
+  },
+  {
+    "date": "1974-03-01",
+    "priceUsdPerOz": 168.42
+  },
+  {
+    "date": "1974-04-01",
+    "priceUsdPerOz": 172.24
+  },
+  {
+    "date": "1974-05-01",
+    "priceUsdPerOz": 163.27
+  },
+  {
+    "date": "1974-06-01",
+    "priceUsdPerOz": 154.1
+  },
+  {
+    "date": "1974-07-01",
+    "priceUsdPerOz": 142.98
+  },
+  {
+    "date": "1974-08-01",
+    "priceUsdPerOz": 154.64
+  },
+  {
+    "date": "1974-09-01",
+    "priceUsdPerOz": 151.75
+  },
+  {
+    "date": "1974-10-01",
+    "priceUsdPerOz": 158.78
+  },
+  {
+    "date": "1974-11-01",
+    "priceUsdPerOz": 181.66
+  },
+  {
+    "date": "1974-12-01",
+    "priceUsdPerOz": 183.78
+  },
+  {
+    "date": "1975-01-01",
+    "priceUsdPerOz": 176.27
+  },
+  {
+    "date": "1975-02-01",
+    "priceUsdPerOz": 179.6
+  },
+  {
+    "date": "1975-03-01",
+    "priceUsdPerOz": 178.16
+  },
+  {
+    "date": "1975-04-01",
+    "priceUsdPerOz": 169.84
+  },
+  {
+    "date": "1975-05-01",
+    "priceUsdPerOz": 167.39
+  },
+  {
+    "date": "1975-06-01",
+    "priceUsdPerOz": 164.24
+  },
+  {
+    "date": "1975-07-01",
+    "priceUsdPerOz": 165.17
+  },
+  {
+    "date": "1975-08-01",
+    "priceUsdPerOz": 163
+  },
+  {
+    "date": "1975-09-01",
+    "priceUsdPerOz": 144.17
+  },
+  {
+    "date": "1975-10-01",
+    "priceUsdPerOz": 142.79
+  },
+  {
+    "date": "1975-11-01",
+    "priceUsdPerOz": 142.42
+  },
+  {
+    "date": "1975-12-01",
+    "priceUsdPerOz": 139.3
+  },
+  {
+    "date": "1976-01-01",
+    "priceUsdPerOz": 131.05
+  },
+  {
+    "date": "1976-02-01",
+    "priceUsdPerOz": 131.06
+  },
+  {
+    "date": "1976-03-01",
+    "priceUsdPerOz": 132.76
+  },
+  {
+    "date": "1976-04-01",
+    "priceUsdPerOz": 127.94
+  },
+  {
+    "date": "1976-05-01",
+    "priceUsdPerOz": 126.92
+  },
+  {
+    "date": "1976-06-01",
+    "priceUsdPerOz": 125.71
+  },
+  {
+    "date": "1976-07-01",
+    "priceUsdPerOz": 117.73
+  },
+  {
+    "date": "1976-08-01",
+    "priceUsdPerOz": 109.93
+  },
+  {
+    "date": "1976-09-01",
+    "priceUsdPerOz": 114.15
+  },
+  {
+    "date": "1976-10-01",
+    "priceUsdPerOz": 116.15
+  },
+  {
+    "date": "1976-11-01",
+    "priceUsdPerOz": 130.46
+  },
+  {
+    "date": "1976-12-01",
+    "priceUsdPerOz": 133.93
+  },
+  {
+    "date": "1977-01-01",
+    "priceUsdPerOz": 132.26
+  },
+  {
+    "date": "1977-02-01",
+    "priceUsdPerOz": 136.24
+  },
+  {
+    "date": "1977-03-01",
+    "priceUsdPerOz": 148.23
+  },
+  {
+    "date": "1977-04-01",
+    "priceUsdPerOz": 149.17
+  },
+  {
+    "date": "1977-05-01",
+    "priceUsdPerOz": 146.61
+  },
+  {
+    "date": "1977-06-01",
+    "priceUsdPerOz": 140.78
+  },
+  {
+    "date": "1977-07-01",
+    "priceUsdPerOz": 143.39
+  },
+  {
+    "date": "1977-08-01",
+    "priceUsdPerOz": 144.94
+  },
+  {
+    "date": "1977-09-01",
+    "priceUsdPerOz": 149.53
+  },
+  {
+    "date": "1977-10-01",
+    "priceUsdPerOz": 158.95
+  },
+  {
+    "date": "1977-11-01",
+    "priceUsdPerOz": 162.1
+  },
+  {
+    "date": "1977-12-01",
+    "priceUsdPerOz": 160.45
+  },
+  {
+    "date": "1978-01-01",
+    "priceUsdPerOz": 173.18
+  },
+  {
+    "date": "1978-02-01",
+    "priceUsdPerOz": 178.14
+  },
+  {
+    "date": "1978-03-01",
+    "priceUsdPerOz": 183.61
+  },
+  {
+    "date": "1978-04-01",
+    "priceUsdPerOz": 175.28
+  },
+  {
+    "date": "1978-05-01",
+    "priceUsdPerOz": 176.31
+  },
+  {
+    "date": "1978-06-01",
+    "priceUsdPerOz": 183.75
+  },
+  {
+    "date": "1978-07-01",
+    "priceUsdPerOz": 188.73
+  },
+  {
+    "date": "1978-08-01",
+    "priceUsdPerOz": 206.3
+  },
+  {
+    "date": "1978-09-01",
+    "priceUsdPerOz": 212.08
+  },
+  {
+    "date": "1978-10-01",
+    "priceUsdPerOz": 227.44
+  },
+  {
+    "date": "1978-11-01",
+    "priceUsdPerOz": 206.2
+  },
+  {
+    "date": "1978-12-01",
+    "priceUsdPerOz": 207.85
+  },
+  {
+    "date": "1979-01-01",
+    "priceUsdPerOz": 227.28
+  },
+  {
+    "date": "1979-02-01",
+    "priceUsdPerOz": 245.67
+  },
+  {
+    "date": "1979-03-01",
+    "priceUsdPerOz": 242.05
+  },
+  {
+    "date": "1979-04-01",
+    "priceUsdPerOz": 239.11
+  },
+  {
+    "date": "1979-05-01",
+    "priceUsdPerOz": 257.59
+  },
+  {
+    "date": "1979-06-01",
+    "priceUsdPerOz": 279.07
+  },
+  {
+    "date": "1979-07-01",
+    "priceUsdPerOz": 294.74
+  },
+  {
+    "date": "1979-08-01",
+    "priceUsdPerOz": 300.82
+  },
+  {
+    "date": "1979-09-01",
+    "priceUsdPerOz": 354.95
+  },
+  {
+    "date": "1979-10-01",
+    "priceUsdPerOz": 391.66
+  },
+  {
+    "date": "1979-11-01",
+    "priceUsdPerOz": 391.99
+  },
+  {
+    "date": "1979-12-01",
+    "priceUsdPerOz": 455.08
+  },
+  {
+    "date": "1980-01-01",
+    "priceUsdPerOz": 675.31
+  },
+  {
+    "date": "1980-02-01",
+    "priceUsdPerOz": 665.32
+  },
+  {
+    "date": "1980-03-01",
+    "priceUsdPerOz": 553.58
+  },
+  {
+    "date": "1980-04-01",
+    "priceUsdPerOz": 517.41
+  },
+  {
+    "date": "1980-05-01",
+    "priceUsdPerOz": 513.8
+  },
+  {
+    "date": "1980-06-01",
+    "priceUsdPerOz": 600.72
+  },
+  {
+    "date": "1980-07-01",
+    "priceUsdPerOz": 643.27
+  },
+  {
+    "date": "1980-08-01",
+    "priceUsdPerOz": 627.15
+  },
+  {
+    "date": "1980-09-01",
+    "priceUsdPerOz": 673.63
+  },
+  {
+    "date": "1980-10-01",
+    "priceUsdPerOz": 661.15
+  },
+  {
+    "date": "1980-11-01",
+    "priceUsdPerOz": 624.77
+  },
+  {
+    "date": "1980-12-01",
+    "priceUsdPerOz": 538.26
+  },
+  {
+    "date": "1981-01-01",
+    "priceUsdPerOz": 557.39
+  },
+  {
+    "date": "1981-02-01",
+    "priceUsdPerOz": 499.76
+  },
+  {
+    "date": "1981-03-01",
+    "priceUsdPerOz": 499.11
+  },
+  {
+    "date": "1981-04-01",
+    "priceUsdPerOz": 495.8
+  },
+  {
+    "date": "1981-05-01",
+    "priceUsdPerOz": 479.7
+  },
+  {
+    "date": "1981-06-01",
+    "priceUsdPerOz": 461.09
+  },
+  {
+    "date": "1981-07-01",
+    "priceUsdPerOz": 409.07
+  },
+  {
+    "date": "1981-08-01",
+    "priceUsdPerOz": 410.16
+  },
+  {
+    "date": "1981-09-01",
+    "priceUsdPerOz": 443.75
+  },
+  {
+    "date": "1981-10-01",
+    "priceUsdPerOz": 437.76
+  },
+  {
+    "date": "1981-11-01",
+    "priceUsdPerOz": 413.37
+  },
+  {
+    "date": "1981-12-01",
+    "priceUsdPerOz": 410.09
+  },
+  {
+    "date": "1982-01-01",
+    "priceUsdPerOz": 384.14
+  },
+  {
+    "date": "1982-02-01",
+    "priceUsdPerOz": 374.13
+  },
+  {
+    "date": "1982-03-01",
+    "priceUsdPerOz": 330.25
+  },
+  {
+    "date": "1982-04-01",
+    "priceUsdPerOz": 350.3
+  },
+  {
+    "date": "1982-05-01",
+    "priceUsdPerOz": 333.71
+  },
+  {
+    "date": "1982-06-01",
+    "priceUsdPerOz": 314.98
+  },
+  {
+    "date": "1982-07-01",
+    "priceUsdPerOz": 338.97
+  },
+  {
+    "date": "1982-08-01",
+    "priceUsdPerOz": 364.23
+  },
+  {
+    "date": "1982-09-01",
+    "priceUsdPerOz": 437.31
+  },
+  {
+    "date": "1982-10-01",
+    "priceUsdPerOz": 422.15
+  },
+  {
+    "date": "1982-11-01",
+    "priceUsdPerOz": 414.89
+  },
+  {
+    "date": "1982-12-01",
+    "priceUsdPerOz": 444.5
+  },
+  {
+    "date": "1983-01-01",
+    "priceUsdPerOz": 481.29
+  },
+  {
+    "date": "1983-02-01",
+    "priceUsdPerOz": 491.09
+  },
+  {
+    "date": "1983-03-01",
+    "priceUsdPerOz": 419.7
+  },
+  {
+    "date": "1983-04-01",
+    "priceUsdPerOz": 432.88
+  },
+  {
+    "date": "1983-05-01",
+    "priceUsdPerOz": 438.01
+  },
+  {
+    "date": "1983-06-01",
+    "priceUsdPerOz": 412.84
+  },
+  {
+    "date": "1983-07-01",
+    "priceUsdPerOz": 402.91
+  },
+  {
+    "date": "1983-08-01",
+    "priceUsdPerOz": 416.2
+  },
+  {
+    "date": "1983-09-01",
+    "priceUsdPerOz": 411.8
+  },
+  {
+    "date": "1983-10-01",
+    "priceUsdPerOz": 393.6
+  },
+  {
+    "date": "1983-11-01",
+    "priceUsdPerOz": 381.7
+  },
+  {
+    "date": "1983-12-01",
+    "priceUsdPerOz": 388.34
+  },
+  {
+    "date": "1984-01-01",
+    "priceUsdPerOz": 370.89
+  },
+  {
+    "date": "1984-02-01",
+    "priceUsdPerOz": 385.96
+  },
+  {
+    "date": "1984-03-01",
+    "priceUsdPerOz": 394.26
+  },
+  {
+    "date": "1984-04-01",
+    "priceUsdPerOz": 381.37
+  },
+  {
+    "date": "1984-05-01",
+    "priceUsdPerOz": 377.4
+  },
+  {
+    "date": "1984-06-01",
+    "priceUsdPerOz": 377.7
+  },
+  {
+    "date": "1984-07-01",
+    "priceUsdPerOz": 347.71
+  },
+  {
+    "date": "1984-08-01",
+    "priceUsdPerOz": 347.7
+  },
+  {
+    "date": "1984-09-01",
+    "priceUsdPerOz": 340.2
+  },
+  {
+    "date": "1984-10-01",
+    "priceUsdPerOz": 341
+  },
+  {
+    "date": "1984-11-01",
+    "priceUsdPerOz": 342
+  },
+  {
+    "date": "1984-12-01",
+    "priceUsdPerOz": 319.54
+  },
+  {
+    "date": "1985-01-01",
+    "priceUsdPerOz": 302.79
+  },
+  {
+    "date": "1985-02-01",
+    "priceUsdPerOz": 299.1
+  },
+  {
+    "date": "1985-03-01",
+    "priceUsdPerOz": 313.5
+  },
+  {
+    "date": "1985-04-01",
+    "priceUsdPerOz": 326.8
+  },
+  {
+    "date": "1985-05-01",
+    "priceUsdPerOz": 316
+  },
+  {
+    "date": "1985-06-01",
+    "priceUsdPerOz": 316.5
+  },
+  {
+    "date": "1985-07-01",
+    "priceUsdPerOz": 317.2
+  },
+  {
+    "date": "1985-08-01",
+    "priceUsdPerOz": 330.4
+  },
+  {
+    "date": "1985-09-01",
+    "priceUsdPerOz": 323.35
+  },
+  {
+    "date": "1985-10-01",
+    "priceUsdPerOz": 325.85
+  },
+  {
+    "date": "1985-11-01",
+    "priceUsdPerOz": 321.5
+  },
+  {
+    "date": "1985-12-01",
+    "priceUsdPerOz": 321.9
+  },
+  {
+    "date": "1986-01-01",
+    "priceUsdPerOz": 347.48
+  },
+  {
+    "date": "1986-02-01",
+    "priceUsdPerOz": 338.89
+  },
+  {
+    "date": "1986-03-01",
+    "priceUsdPerOz": 345.7
+  },
+  {
+    "date": "1986-04-01",
+    "priceUsdPerOz": 340.44
+  },
+  {
+    "date": "1986-05-01",
+    "priceUsdPerOz": 342.4
+  },
+  {
+    "date": "1986-06-01",
+    "priceUsdPerOz": 342.7
+  },
+  {
+    "date": "1986-07-01",
+    "priceUsdPerOz": 348.34
+  },
+  {
+    "date": "1986-08-01",
+    "priceUsdPerOz": 376.66
+  },
+  {
+    "date": "1986-09-01",
+    "priceUsdPerOz": 417.73
+  },
+  {
+    "date": "1986-10-01",
+    "priceUsdPerOz": 423.51
+  },
+  {
+    "date": "1986-11-01",
+    "priceUsdPerOz": 397.56
+  },
+  {
+    "date": "1986-12-01",
+    "priceUsdPerOz": 390.92
+  },
+  {
+    "date": "1987-01-01",
+    "priceUsdPerOz": 408.26
+  },
+  {
+    "date": "1987-02-01",
+    "priceUsdPerOz": 401.12
+  },
+  {
+    "date": "1987-03-01",
+    "priceUsdPerOz": 408.91
+  },
+  {
+    "date": "1987-04-01",
+    "priceUsdPerOz": 438.35
+  },
+  {
+    "date": "1987-05-01",
+    "priceUsdPerOz": 460.23
+  },
+  {
+    "date": "1987-06-01",
+    "priceUsdPerOz": 449.59
+  },
+  {
+    "date": "1987-07-01",
+    "priceUsdPerOz": 450.52
+  },
+  {
+    "date": "1987-08-01",
+    "priceUsdPerOz": 461.15
+  },
+  {
+    "date": "1987-09-01",
+    "priceUsdPerOz": 460.38
+  },
+  {
+    "date": "1987-10-01",
+    "priceUsdPerOz": 465.35
+  },
+  {
+    "date": "1987-11-01",
+    "priceUsdPerOz": 467.57
+  },
+  {
+    "date": "1987-12-01",
+    "priceUsdPerOz": 486.24
+  },
+  {
+    "date": "1988-01-01",
+    "priceUsdPerOz": 476.58
+  },
+  {
+    "date": "1988-02-01",
+    "priceUsdPerOz": 442.07
+  },
+  {
+    "date": "1988-03-01",
+    "priceUsdPerOz": 443.61
+  },
+  {
+    "date": "1988-04-01",
+    "priceUsdPerOz": 451.55
+  },
+  {
+    "date": "1988-05-01",
+    "priceUsdPerOz": 451.07
+  },
+  {
+    "date": "1988-06-01",
+    "priceUsdPerOz": 451.33
+  },
+  {
+    "date": "1988-07-01",
+    "priceUsdPerOz": 437.63
+  },
+  {
+    "date": "1988-08-01",
+    "priceUsdPerOz": 431.28
+  },
+  {
+    "date": "1988-09-01",
+    "priceUsdPerOz": 413.46
+  },
+  {
+    "date": "1988-10-01",
+    "priceUsdPerOz": 406.78
+  },
+  {
+    "date": "1988-11-01",
+    "priceUsdPerOz": 420.17
+  },
+  {
+    "date": "1988-12-01",
+    "priceUsdPerOz": 419.05
+  },
+  {
+    "date": "1989-01-01",
+    "priceUsdPerOz": 404.01
+  },
+  {
+    "date": "1989-02-01",
+    "priceUsdPerOz": 387.51
+  },
+  {
+    "date": "1989-03-01",
+    "priceUsdPerOz": 390.15
+  },
+  {
+    "date": "1989-04-01",
+    "priceUsdPerOz": 384.4
+  },
+  {
+    "date": "1989-05-01",
+    "priceUsdPerOz": 371.05
+  },
+  {
+    "date": "1989-06-01",
+    "priceUsdPerOz": 367.6
+  },
+  {
+    "date": "1989-07-01",
+    "priceUsdPerOz": 375.04
+  },
+  {
+    "date": "1989-08-01",
+    "priceUsdPerOz": 365.14
+  },
+  {
+    "date": "1989-09-01",
+    "priceUsdPerOz": 361.75
+  },
+  {
+    "date": "1989-10-01",
+    "priceUsdPerOz": 366.88
+  },
+  {
+    "date": "1989-11-01",
+    "priceUsdPerOz": 394.26
+  },
+  {
+    "date": "1989-12-01",
+    "priceUsdPerOz": 409.39
+  },
+  {
+    "date": "1990-01-01",
+    "priceUsdPerOz": 410.11
+  },
+  {
+    "date": "1990-02-01",
+    "priceUsdPerOz": 416.81
+  },
+  {
+    "date": "1990-03-01",
+    "priceUsdPerOz": 393.06
+  },
+  {
+    "date": "1990-04-01",
+    "priceUsdPerOz": 374.24
+  },
+  {
+    "date": "1990-05-01",
+    "priceUsdPerOz": 369.05
+  },
+  {
+    "date": "1990-06-01",
+    "priceUsdPerOz": 352.33
+  },
+  {
+    "date": "1990-07-01",
+    "priceUsdPerOz": 362.53
+  },
+  {
+    "date": "1990-08-01",
+    "priceUsdPerOz": 394.73
+  },
+  {
+    "date": "1990-09-01",
+    "priceUsdPerOz": 389.32
+  },
+  {
+    "date": "1990-10-01",
+    "priceUsdPerOz": 380.74
+  },
+  {
+    "date": "1990-11-01",
+    "priceUsdPerOz": 381.73
+  },
+  {
+    "date": "1990-12-01",
+    "priceUsdPerOz": 376.95
+  },
+  {
+    "date": "1991-01-01",
+    "priceUsdPerOz": 383.64
+  },
+  {
+    "date": "1991-02-01",
+    "priceUsdPerOz": 363.83
+  },
+  {
+    "date": "1991-03-01",
+    "priceUsdPerOz": 363.34
+  },
+  {
+    "date": "1991-04-01",
+    "priceUsdPerOz": 358.38
+  },
+  {
+    "date": "1991-05-01",
+    "priceUsdPerOz": 356.95
+  },
+  {
+    "date": "1991-06-01",
+    "priceUsdPerOz": 366.72
+  },
+  {
+    "date": "1991-07-01",
+    "priceUsdPerOz": 367.69
+  },
+  {
+    "date": "1991-08-01",
+    "priceUsdPerOz": 356.31
+  },
+  {
+    "date": "1991-09-01",
+    "priceUsdPerOz": 348.74
+  },
+  {
+    "date": "1991-10-01",
+    "priceUsdPerOz": 358.69
+  },
+  {
+    "date": "1991-11-01",
+    "priceUsdPerOz": 360.17
+  },
+  {
+    "date": "1991-12-01",
+    "priceUsdPerOz": 361.73
+  },
+  {
+    "date": "1992-01-01",
+    "priceUsdPerOz": 354.45
+  },
+  {
+    "date": "1992-02-01",
+    "priceUsdPerOz": 353.91
+  },
+  {
+    "date": "1992-03-01",
+    "priceUsdPerOz": 344.34
+  },
+  {
+    "date": "1992-04-01",
+    "priceUsdPerOz": 338.62
+  },
+  {
+    "date": "1992-05-01",
+    "priceUsdPerOz": 337.24
+  },
+  {
+    "date": "1992-06-01",
+    "priceUsdPerOz": 340.81
+  },
+  {
+    "date": "1992-07-01",
+    "priceUsdPerOz": 352.72
+  },
+  {
+    "date": "1992-08-01",
+    "priceUsdPerOz": 343.06
+  },
+  {
+    "date": "1992-09-01",
+    "priceUsdPerOz": 345.43
+  },
+  {
+    "date": "1992-10-01",
+    "priceUsdPerOz": 344.38
+  },
+  {
+    "date": "1992-11-01",
+    "priceUsdPerOz": 335.02
+  },
+  {
+    "date": "1992-12-01",
+    "priceUsdPerOz": 334.82
+  },
+  {
+    "date": "1993-01-01",
+    "priceUsdPerOz": 329.01
+  },
+  {
+    "date": "1993-02-01",
+    "priceUsdPerOz": 329.31
+  },
+  {
+    "date": "1993-03-01",
+    "priceUsdPerOz": 330.08
+  },
+  {
+    "date": "1993-04-01",
+    "priceUsdPerOz": 342.15
+  },
+  {
+    "date": "1993-05-01",
+    "priceUsdPerOz": 367.18
+  },
+  {
+    "date": "1993-06-01",
+    "priceUsdPerOz": 371.89
+  },
+  {
+    "date": "1993-07-01",
+    "priceUsdPerOz": 392.19
+  },
+  {
+    "date": "1993-08-01",
+    "priceUsdPerOz": 378.84
+  },
+  {
+    "date": "1993-09-01",
+    "priceUsdPerOz": 355.28
+  },
+  {
+    "date": "1993-10-01",
+    "priceUsdPerOz": 364.18
+  },
+  {
+    "date": "1993-11-01",
+    "priceUsdPerOz": 373.83
+  },
+  {
+    "date": "1993-12-01",
+    "priceUsdPerOz": 383.3
+  },
+  {
+    "date": "1994-01-01",
+    "priceUsdPerOz": 386.88
+  },
+  {
+    "date": "1994-02-01",
+    "priceUsdPerOz": 381.91
+  },
+  {
+    "date": "1994-03-01",
+    "priceUsdPerOz": 384.13
+  },
+  {
+    "date": "1994-04-01",
+    "priceUsdPerOz": 377.27
+  },
+  {
+    "date": "1994-05-01",
+    "priceUsdPerOz": 381.43
+  },
+  {
+    "date": "1994-06-01",
+    "priceUsdPerOz": 385.64
+  },
+  {
+    "date": "1994-07-01",
+    "priceUsdPerOz": 385.49
+  },
+  {
+    "date": "1994-08-01",
+    "priceUsdPerOz": 380.36
+  },
+  {
+    "date": "1994-09-01",
+    "priceUsdPerOz": 391.58
+  },
+  {
+    "date": "1994-10-01",
+    "priceUsdPerOz": 389.77
+  },
+  {
+    "date": "1994-11-01",
+    "priceUsdPerOz": 384.39
+  },
+  {
+    "date": "1994-12-01",
+    "priceUsdPerOz": 379.29
+  },
+  {
+    "date": "1995-01-01",
+    "priceUsdPerOz": 378.55
+  },
+  {
+    "date": "1995-02-01",
+    "priceUsdPerOz": 376.64
+  },
+  {
+    "date": "1995-03-01",
+    "priceUsdPerOz": 382.12
+  },
+  {
+    "date": "1995-04-01",
+    "priceUsdPerOz": 391.03
+  },
+  {
+    "date": "1995-05-01",
+    "priceUsdPerOz": 385.22
+  },
+  {
+    "date": "1995-06-01",
+    "priceUsdPerOz": 387.56
+  },
+  {
+    "date": "1995-07-01",
+    "priceUsdPerOz": 386.23
+  },
+  {
+    "date": "1995-08-01",
+    "priceUsdPerOz": 383.67
+  },
+  {
+    "date": "1995-09-01",
+    "priceUsdPerOz": 383.06
+  },
+  {
+    "date": "1995-10-01",
+    "priceUsdPerOz": 383.14
+  },
+  {
+    "date": "1995-11-01",
+    "priceUsdPerOz": 385.31
+  },
+  {
+    "date": "1995-12-01",
+    "priceUsdPerOz": 387.44
+  },
+  {
+    "date": "1996-01-01",
+    "priceUsdPerOz": 399.45
+  },
+  {
+    "date": "1996-02-01",
+    "priceUsdPerOz": 404.76
+  },
+  {
+    "date": "1996-03-01",
+    "priceUsdPerOz": 396.21
+  },
+  {
+    "date": "1996-04-01",
+    "priceUsdPerOz": 392.85
+  },
+  {
+    "date": "1996-05-01",
+    "priceUsdPerOz": 391.93
+  },
+  {
+    "date": "1996-06-01",
+    "priceUsdPerOz": 385.27
+  },
+  {
+    "date": "1996-07-01",
+    "priceUsdPerOz": 383.47
+  },
+  {
+    "date": "1996-08-01",
+    "priceUsdPerOz": 387.35
+  },
+  {
+    "date": "1996-09-01",
+    "priceUsdPerOz": 383.14
+  },
+  {
+    "date": "1996-10-01",
+    "priceUsdPerOz": 381.07
+  },
+  {
+    "date": "1996-11-01",
+    "priceUsdPerOz": 377.85
+  },
+  {
+    "date": "1996-12-01",
+    "priceUsdPerOz": 369
+  },
+  {
+    "date": "1997-01-01",
+    "priceUsdPerOz": 355.11
+  },
+  {
+    "date": "1997-02-01",
+    "priceUsdPerOz": 346.58
+  },
+  {
+    "date": "1997-03-01",
+    "priceUsdPerOz": 351.81
+  },
+  {
+    "date": "1997-04-01",
+    "priceUsdPerOz": 344.47
+  },
+  {
+    "date": "1997-05-01",
+    "priceUsdPerOz": 343.84
+  },
+  {
+    "date": "1997-06-01",
+    "priceUsdPerOz": 340.76
+  },
+  {
+    "date": "1997-07-01",
+    "priceUsdPerOz": 324.1
+  },
+  {
+    "date": "1997-08-01",
+    "priceUsdPerOz": 324.01
+  },
+  {
+    "date": "1997-09-01",
+    "priceUsdPerOz": 322.82
+  },
+  {
+    "date": "1997-10-01",
+    "priceUsdPerOz": 324.87
+  },
+  {
+    "date": "1997-11-01",
+    "priceUsdPerOz": 306.04
+  },
+  {
+    "date": "1997-12-01",
+    "priceUsdPerOz": 288.74
+  },
+  {
+    "date": "1998-01-01",
+    "priceUsdPerOz": 289.1
+  },
+  {
+    "date": "1998-02-01",
+    "priceUsdPerOz": 297.49
+  },
+  {
+    "date": "1998-03-01",
+    "priceUsdPerOz": 295.94
+  },
+  {
+    "date": "1998-04-01",
+    "priceUsdPerOz": 308.29
+  },
+  {
+    "date": "1998-05-01",
+    "priceUsdPerOz": 299.1
+  },
+  {
+    "date": "1998-06-01",
+    "priceUsdPerOz": 292.32
+  },
+  {
+    "date": "1998-07-01",
+    "priceUsdPerOz": 292.87
+  },
+  {
+    "date": "1998-08-01",
+    "priceUsdPerOz": 284.11
+  },
+  {
+    "date": "1998-09-01",
+    "priceUsdPerOz": 288.98
+  },
+  {
+    "date": "1998-10-01",
+    "priceUsdPerOz": 295.93
+  },
+  {
+    "date": "1998-11-01",
+    "priceUsdPerOz": 294.12
+  },
+  {
+    "date": "1998-12-01",
+    "priceUsdPerOz": 291.68
+  },
+  {
+    "date": "1999-01-01",
+    "priceUsdPerOz": 287.08
+  },
+  {
+    "date": "1999-02-01",
+    "priceUsdPerOz": 287.33
+  },
+  {
+    "date": "1999-03-01",
+    "priceUsdPerOz": 285.96
+  },
+  {
+    "date": "1999-04-01",
+    "priceUsdPerOz": 282.62
+  },
+  {
+    "date": "1999-05-01",
+    "priceUsdPerOz": 276.44
+  },
+  {
+    "date": "1999-06-01",
+    "priceUsdPerOz": 261.31
+  },
+  {
+    "date": "1999-07-01",
+    "priceUsdPerOz": 256.08
+  },
+  {
+    "date": "1999-08-01",
+    "priceUsdPerOz": 256.69
+  },
+  {
+    "date": "1999-09-01",
+    "priceUsdPerOz": 264.74
+  },
+  {
+    "date": "1999-10-01",
+    "priceUsdPerOz": 310.72
+  },
+  {
+    "date": "1999-11-01",
+    "priceUsdPerOz": 293.18
+  },
+  {
+    "date": "1999-12-01",
+    "priceUsdPerOz": 283.07
+  },
+  {
+    "date": "2000-01-01",
+    "priceUsdPerOz": 284.32
+  },
+  {
+    "date": "2000-02-01",
+    "priceUsdPerOz": 299.86
+  },
+  {
+    "date": "2000-03-01",
+    "priceUsdPerOz": 286.39
+  },
+  {
+    "date": "2000-04-01",
+    "priceUsdPerOz": 279.69
+  },
+  {
+    "date": "2000-05-01",
+    "priceUsdPerOz": 275.19
+  },
+  {
+    "date": "2000-06-01",
+    "priceUsdPerOz": 285.73
+  },
+  {
+    "date": "2000-07-01",
+    "priceUsdPerOz": 281.59
+  },
+  {
+    "date": "2000-08-01",
+    "priceUsdPerOz": 274.47
+  },
+  {
+    "date": "2000-09-01",
+    "priceUsdPerOz": 273.68
+  },
+  {
+    "date": "2000-10-01",
+    "priceUsdPerOz": 270
+  },
+  {
+    "date": "2000-11-01",
+    "priceUsdPerOz": 266.01
+  },
+  {
+    "date": "2000-12-01",
+    "priceUsdPerOz": 271.45
+  },
+  {
+    "date": "2001-01-01",
+    "priceUsdPerOz": 265.49
+  },
+  {
+    "date": "2001-02-01",
+    "priceUsdPerOz": 261.87
+  },
+  {
+    "date": "2001-03-01",
+    "priceUsdPerOz": 263.03
+  },
+  {
+    "date": "2001-04-01",
+    "priceUsdPerOz": 260.48
+  },
+  {
+    "date": "2001-05-01",
+    "priceUsdPerOz": 272.36
+  },
+  {
+    "date": "2001-06-01",
+    "priceUsdPerOz": 270.23
+  },
+  {
+    "date": "2001-07-01",
+    "priceUsdPerOz": 267.53
+  },
+  {
+    "date": "2001-08-01",
+    "priceUsdPerOz": 272.39
+  },
+  {
+    "date": "2001-09-01",
+    "priceUsdPerOz": 283.42
+  },
+  {
+    "date": "2001-10-01",
+    "priceUsdPerOz": 283.06
+  },
+  {
+    "date": "2001-11-01",
+    "priceUsdPerOz": 276.16
+  },
+  {
+    "date": "2001-12-01",
+    "priceUsdPerOz": 275.85
+  },
+  {
+    "date": "2002-01-01",
+    "priceUsdPerOz": 281.51
+  },
+  {
+    "date": "2002-02-01",
+    "priceUsdPerOz": 295.5
+  },
+  {
+    "date": "2002-03-01",
+    "priceUsdPerOz": 294.06
+  },
+  {
+    "date": "2002-04-01",
+    "priceUsdPerOz": 302.68
+  },
+  {
+    "date": "2002-05-01",
+    "priceUsdPerOz": 314.49
+  },
+  {
+    "date": "2002-06-01",
+    "priceUsdPerOz": 321.18
+  },
+  {
+    "date": "2002-07-01",
+    "priceUsdPerOz": 313.29
+  },
+  {
+    "date": "2002-08-01",
+    "priceUsdPerOz": 310.26
+  },
+  {
+    "date": "2002-09-01",
+    "priceUsdPerOz": 319.14
+  },
+  {
+    "date": "2002-10-01",
+    "priceUsdPerOz": 316.56
+  },
+  {
+    "date": "2002-11-01",
+    "priceUsdPerOz": 319.07
+  },
+  {
+    "date": "2002-12-01",
+    "priceUsdPerOz": 331.92
+  },
+  {
+    "date": "2003-01-01",
+    "priceUsdPerOz": 356.859
+  },
+  {
+    "date": "2003-02-01",
+    "priceUsdPerOz": 358.97
+  },
+  {
+    "date": "2003-03-01",
+    "priceUsdPerOz": 340.55
+  },
+  {
+    "date": "2003-04-01",
+    "priceUsdPerOz": 328.18
+  },
+  {
+    "date": "2003-05-01",
+    "priceUsdPerOz": 355.683
+  },
+  {
+    "date": "2003-06-01",
+    "priceUsdPerOz": 356.352
+  },
+  {
+    "date": "2003-07-01",
+    "priceUsdPerOz": 351.02
+  },
+  {
+    "date": "2003-08-01",
+    "priceUsdPerOz": 359.768
+  },
+  {
+    "date": "2003-09-01",
+    "priceUsdPerOz": 378.945
+  },
+  {
+    "date": "2003-10-01",
+    "priceUsdPerOz": 378.92
+  },
+  {
+    "date": "2003-11-01",
+    "priceUsdPerOz": 389.91
+  },
+  {
+    "date": "2003-12-01",
+    "priceUsdPerOz": 406.953
+  },
+  {
+    "date": "2004-01-01",
+    "priceUsdPerOz": 413.788
+  },
+  {
+    "date": "2004-02-01",
+    "priceUsdPerOz": 404.878
+  },
+  {
+    "date": "2004-03-01",
+    "priceUsdPerOz": 406.667
+  },
+  {
+    "date": "2004-04-01",
+    "priceUsdPerOz": 403.26
+  },
+  {
+    "date": "2004-05-01",
+    "priceUsdPerOz": 383.779
+  },
+  {
+    "date": "2004-06-01",
+    "priceUsdPerOz": 392.373
+  },
+  {
+    "date": "2004-07-01",
+    "priceUsdPerOz": 398.091
+  },
+  {
+    "date": "2004-08-01",
+    "priceUsdPerOz": 400.51
+  },
+  {
+    "date": "2004-09-01",
+    "priceUsdPerOz": 405.275
+  },
+  {
+    "date": "2004-10-01",
+    "priceUsdPerOz": 420.464
+  },
+  {
+    "date": "2004-11-01",
+    "priceUsdPerOz": 439.375
+  },
+  {
+    "date": "2004-12-01",
+    "priceUsdPerOz": 442.079
+  },
+  {
+    "date": "2005-01-01",
+    "priceUsdPerOz": 424.03
+  },
+  {
+    "date": "2005-02-01",
+    "priceUsdPerOz": 423.35
+  },
+  {
+    "date": "2005-03-01",
+    "priceUsdPerOz": 433.85
+  },
+  {
+    "date": "2005-04-01",
+    "priceUsdPerOz": 429.233
+  },
+  {
+    "date": "2005-05-01",
+    "priceUsdPerOz": 421.873
+  },
+  {
+    "date": "2005-06-01",
+    "priceUsdPerOz": 430.657
+  },
+  {
+    "date": "2005-07-01",
+    "priceUsdPerOz": 424.479
+  },
+  {
+    "date": "2005-08-01",
+    "priceUsdPerOz": 437.93
+  },
+  {
+    "date": "2005-09-01",
+    "priceUsdPerOz": 456.048
+  },
+  {
+    "date": "2005-10-01",
+    "priceUsdPerOz": 469.898
+  },
+  {
+    "date": "2005-11-01",
+    "priceUsdPerOz": 476.666
+  },
+  {
+    "date": "2005-12-01",
+    "priceUsdPerOz": 510.097
+  },
+  {
+    "date": "2006-01-01",
+    "priceUsdPerOz": 549.864
+  },
+  {
+    "date": "2006-02-01",
+    "priceUsdPerOz": 554.995
+  },
+  {
+    "date": "2006-03-01",
+    "priceUsdPerOz": 557.093
+  },
+  {
+    "date": "2006-04-01",
+    "priceUsdPerOz": 610.653
+  },
+  {
+    "date": "2006-05-01",
+    "priceUsdPerOz": 675.393
+  },
+  {
+    "date": "2006-06-01",
+    "priceUsdPerOz": 596.145
+  },
+  {
+    "date": "2006-07-01",
+    "priceUsdPerOz": 633.71
+  },
+  {
+    "date": "2006-08-01",
+    "priceUsdPerOz": 632.593
+  },
+  {
+    "date": "2006-09-01",
+    "priceUsdPerOz": 598.186
+  },
+  {
+    "date": "2006-10-01",
+    "priceUsdPerOz": 585.78
+  },
+  {
+    "date": "2006-11-01",
+    "priceUsdPerOz": 627.827
+  },
+  {
+    "date": "2006-12-01",
+    "priceUsdPerOz": 629.791
+  },
+  {
+    "date": "2007-01-01",
+    "priceUsdPerOz": 631.166
+  },
+  {
+    "date": "2007-02-01",
+    "priceUsdPerOz": 664.745
+  },
+  {
+    "date": "2007-03-01",
+    "priceUsdPerOz": 654.895
+  },
+  {
+    "date": "2007-04-01",
+    "priceUsdPerOz": 679.368
+  },
+  {
+    "date": "2007-05-01",
+    "priceUsdPerOz": 667.31
+  },
+  {
+    "date": "2007-06-01",
+    "priceUsdPerOz": 655.66
+  },
+  {
+    "date": "2007-07-01",
+    "priceUsdPerOz": 665.38
+  },
+  {
+    "date": "2007-08-01",
+    "priceUsdPerOz": 665.411
+  },
+  {
+    "date": "2007-09-01",
+    "priceUsdPerOz": 712.653
+  },
+  {
+    "date": "2007-10-01",
+    "priceUsdPerOz": 754.604
+  },
+  {
+    "date": "2007-11-01",
+    "priceUsdPerOz": 806.248
+  },
+  {
+    "date": "2007-12-01",
+    "priceUsdPerOz": 803.203
+  },
+  {
+    "date": "2008-01-01",
+    "priceUsdPerOz": 889.595
+  },
+  {
+    "date": "2008-02-01",
+    "priceUsdPerOz": 922.298
+  },
+  {
+    "date": "2008-03-01",
+    "priceUsdPerOz": 968.434
+  },
+  {
+    "date": "2008-04-01",
+    "priceUsdPerOz": 909.705
+  },
+  {
+    "date": "2008-05-01",
+    "priceUsdPerOz": 888.663
+  },
+  {
+    "date": "2008-06-01",
+    "priceUsdPerOz": 889.488
+  },
+  {
+    "date": "2008-07-01",
+    "priceUsdPerOz": 939.772
+  },
+  {
+    "date": "2008-08-01",
+    "priceUsdPerOz": 839.025
+  },
+  {
+    "date": "2008-09-01",
+    "priceUsdPerOz": 829.932
+  },
+  {
+    "date": "2008-10-01",
+    "priceUsdPerOz": 806.62
+  },
+  {
+    "date": "2008-11-01",
+    "priceUsdPerOz": 760.863
+  },
+  {
+    "date": "2008-12-01",
+    "priceUsdPerOz": 816.092
+  },
+  {
+    "date": "2009-01-01",
+    "priceUsdPerOz": 858.69
+  },
+  {
+    "date": "2009-02-01",
+    "priceUsdPerOz": 943
+  },
+  {
+    "date": "2009-03-01",
+    "priceUsdPerOz": 924.273
+  },
+  {
+    "date": "2009-04-01",
+    "priceUsdPerOz": 890.2
+  },
+  {
+    "date": "2009-05-01",
+    "priceUsdPerOz": 928.645
+  },
+  {
+    "date": "2009-06-01",
+    "priceUsdPerOz": 945.67
+  },
+  {
+    "date": "2009-07-01",
+    "priceUsdPerOz": 934.228
+  },
+  {
+    "date": "2009-08-01",
+    "priceUsdPerOz": 949.375
+  },
+  {
+    "date": "2009-09-01",
+    "priceUsdPerOz": 996.591
+  },
+  {
+    "date": "2009-10-01",
+    "priceUsdPerOz": 1043.159
+  },
+  {
+    "date": "2009-11-01",
+    "priceUsdPerOz": 1127.036
+  },
+  {
+    "date": "2009-12-01",
+    "priceUsdPerOz": 1134.724
+  },
+  {
+    "date": "2010-01-01",
+    "priceUsdPerOz": 1117.963
+  },
+  {
+    "date": "2010-02-01",
+    "priceUsdPerOz": 1095.413
+  },
+  {
+    "date": "2010-03-01",
+    "priceUsdPerOz": 1113.337
+  },
+  {
+    "date": "2010-04-01",
+    "priceUsdPerOz": 1148.688
+  },
+  {
+    "date": "2010-05-01",
+    "priceUsdPerOz": 1205.434
+  },
+  {
+    "date": "2010-06-01",
+    "priceUsdPerOz": 1232.92
+  },
+  {
+    "date": "2010-07-01",
+    "priceUsdPerOz": 1192.966
+  },
+  {
+    "date": "2010-08-01",
+    "priceUsdPerOz": 1215.81
+  },
+  {
+    "date": "2010-09-01",
+    "priceUsdPerOz": 1270.977
+  },
+  {
+    "date": "2010-10-01",
+    "priceUsdPerOz": 1342.024
+  },
+  {
+    "date": "2010-11-01",
+    "priceUsdPerOz": 1369.886
+  },
+  {
+    "date": "2010-12-01",
+    "priceUsdPerOz": 1390.553
+  },
+  {
+    "date": "2011-01-01",
+    "priceUsdPerOz": 1360.46
+  },
+  {
+    "date": "2011-02-01",
+    "priceUsdPerOz": 1374.68
+  },
+  {
+    "date": "2011-03-01",
+    "priceUsdPerOz": 1423.26
+  },
+  {
+    "date": "2011-04-01",
+    "priceUsdPerOz": 1480.89
+  },
+  {
+    "date": "2011-05-01",
+    "priceUsdPerOz": 1512.58
+  },
+  {
+    "date": "2011-06-01",
+    "priceUsdPerOz": 1529.36
+  },
+  {
+    "date": "2011-07-01",
+    "priceUsdPerOz": 1572.75
+  },
+  {
+    "date": "2011-08-01",
+    "priceUsdPerOz": 1759.01
+  },
+  {
+    "date": "2011-09-01",
+    "priceUsdPerOz": 1772.14
+  },
+  {
+    "date": "2011-10-01",
+    "priceUsdPerOz": 1666.43
+  },
+  {
+    "date": "2011-11-01",
+    "priceUsdPerOz": 1739
+  },
+  {
+    "date": "2011-12-01",
+    "priceUsdPerOz": 1639.97
+  },
+  {
+    "date": "2012-01-01",
+    "priceUsdPerOz": 1654.05
+  },
+  {
+    "date": "2012-02-01",
+    "priceUsdPerOz": 1744.82
+  },
+  {
+    "date": "2012-03-01",
+    "priceUsdPerOz": 1675.95
+  },
+  {
+    "date": "2012-04-01",
+    "priceUsdPerOz": 1649.2
+  },
+  {
+    "date": "2012-05-01",
+    "priceUsdPerOz": 1589.04
+  },
+  {
+    "date": "2012-06-01",
+    "priceUsdPerOz": 1598.76
+  },
+  {
+    "date": "2012-07-01",
+    "priceUsdPerOz": 1594.29
+  },
+  {
+    "date": "2012-08-01",
+    "priceUsdPerOz": 1630.31
+  },
+  {
+    "date": "2012-09-01",
+    "priceUsdPerOz": 1744.81
+  },
+  {
+    "date": "2012-10-01",
+    "priceUsdPerOz": 1746.58
+  },
+  {
+    "date": "2012-11-01",
+    "priceUsdPerOz": 1721.64
+  },
+  {
+    "date": "2012-12-01",
+    "priceUsdPerOz": 1684.762
+  },
+  {
+    "date": "2013-01-01",
+    "priceUsdPerOz": 1671.84782608696
+  },
+  {
+    "date": "2013-02-01",
+    "priceUsdPerOz": 1627.57
+  },
+  {
+    "date": "2013-03-01",
+    "priceUsdPerOz": 1593.08619047619
+  },
+  {
+    "date": "2013-04-01",
+    "priceUsdPerOz": 1487.85727272727
+  },
+  {
+    "date": "2013-05-01",
+    "priceUsdPerOz": 1414.02695652174
+  },
+  {
+    "date": "2013-06-01",
+    "priceUsdPerOz": 1343.35
+  },
+  {
+    "date": "2013-07-01",
+    "priceUsdPerOz": 1285.51565217391
+  },
+  {
+    "date": "2013-08-01",
+    "priceUsdPerOz": 1351.74181818182
+  },
+  {
+    "date": "2013-09-01",
+    "priceUsdPerOz": 1348.6
+  },
+  {
+    "date": "2013-10-01",
+    "priceUsdPerOz": 1316.58
+  },
+  {
+    "date": "2013-11-01",
+    "priceUsdPerOz": 1275.86
+  },
+  {
+    "date": "2013-12-01",
+    "priceUsdPerOz": 1221.5119047619
+  },
+  {
+    "date": "2014-01-01",
+    "priceUsdPerOz": 1244.27
+  },
+  {
+    "date": "2014-02-01",
+    "priceUsdPerOz": 1299.58
+  },
+  {
+    "date": "2014-03-01",
+    "priceUsdPerOz": 1336.08
+  },
+  {
+    "date": "2014-04-01",
+    "priceUsdPerOz": 1298.45
+  },
+  {
+    "date": "2014-05-01",
+    "priceUsdPerOz": 1288.74
+  },
+  {
+    "date": "2014-06-01",
+    "priceUsdPerOz": 1279.1
+  },
+  {
+    "date": "2014-07-01",
+    "priceUsdPerOz": 1310.59
+  },
+  {
+    "date": "2014-08-01",
+    "priceUsdPerOz": 1295.13
+  },
+  {
+    "date": "2014-09-01",
+    "priceUsdPerOz": 1236.55
+  },
+  {
+    "date": "2014-10-01",
+    "priceUsdPerOz": 1222.49
+  },
+  {
+    "date": "2014-11-01",
+    "priceUsdPerOz": 1175.33
+  },
+  {
+    "date": "2014-12-01",
+    "priceUsdPerOz": 1200.62
+  },
+  {
+    "date": "2015-01-01",
+    "priceUsdPerOz": 1250.75
+  },
+  {
+    "date": "2015-02-01",
+    "priceUsdPerOz": 1227.08
+  },
+  {
+    "date": "2015-03-01",
+    "priceUsdPerOz": 1178.63
+  },
+  {
+    "date": "2015-04-01",
+    "priceUsdPerOz": 1198.93
+  },
+  {
+    "date": "2015-05-01",
+    "priceUsdPerOz": 1198.63
+  },
+  {
+    "date": "2015-06-01",
+    "priceUsdPerOz": 1181.5
+  },
+  {
+    "date": "2015-07-01",
+    "priceUsdPerOz": 1128.31
+  },
+  {
+    "date": "2015-08-01",
+    "priceUsdPerOz": 1117.93
+  },
+  {
+    "date": "2015-09-01",
+    "priceUsdPerOz": 1124.77
+  },
+  {
+    "date": "2015-10-01",
+    "priceUsdPerOz": 1159.25
+  },
+  {
+    "date": "2015-11-01",
+    "priceUsdPerOz": 1086.44
+  },
+  {
+    "date": "2015-12-01",
+    "priceUsdPerOz": 1075.74
+  },
+  {
+    "date": "2016-01-01",
+    "priceUsdPerOz": 1097.91
+  },
+  {
+    "date": "2016-02-01",
+    "priceUsdPerOz": 1199.5
+  },
+  {
+    "date": "2016-03-01",
+    "priceUsdPerOz": 1245.14
+  },
+  {
+    "date": "2016-04-01",
+    "priceUsdPerOz": 1242.26
+  },
+  {
+    "date": "2016-05-01",
+    "priceUsdPerOz": 1260.95
+  },
+  {
+    "date": "2016-06-01",
+    "priceUsdPerOz": 1276.4
+  },
+  {
+    "date": "2016-07-01",
+    "priceUsdPerOz": 1336.66
+  },
+  {
+    "date": "2016-08-01",
+    "priceUsdPerOz": 1340.17
+  },
+  {
+    "date": "2016-09-01",
+    "priceUsdPerOz": 1326.61
+  },
+  {
+    "date": "2016-10-01",
+    "priceUsdPerOz": 1266.55
+  },
+  {
+    "date": "2016-11-01",
+    "priceUsdPerOz": 1238.35
+  },
+  {
+    "date": "2016-12-01",
+    "priceUsdPerOz": 1157.36
+  },
+  {
+    "date": "2017-01-01",
+    "priceUsdPerOz": 1192.1
+  },
+  {
+    "date": "2017-02-01",
+    "priceUsdPerOz": 1234.2
+  },
+  {
+    "date": "2017-03-01",
+    "priceUsdPerOz": 1231.42
+  },
+  {
+    "date": "2017-04-01",
+    "priceUsdPerOz": 1266.88
+  },
+  {
+    "date": "2017-05-01",
+    "priceUsdPerOz": 1246.04
+  },
+  {
+    "date": "2017-06-01",
+    "priceUsdPerOz": 1260.26
+  },
+  {
+    "date": "2017-07-01",
+    "priceUsdPerOz": 1236.84
+  },
+  {
+    "date": "2017-08-01",
+    "priceUsdPerOz": 1283.04
+  },
+  {
+    "date": "2017-09-01",
+    "priceUsdPerOz": 1314.07
+  },
+  {
+    "date": "2017-10-01",
+    "priceUsdPerOz": 1279.51
+  },
+  {
+    "date": "2017-11-01",
+    "priceUsdPerOz": 1281.9
+  },
+  {
+    "date": "2017-12-01",
+    "priceUsdPerOz": 1264.45
+  },
+  {
+    "date": "2018-01-01",
+    "priceUsdPerOz": 1331.3
+  },
+  {
+    "date": "2018-02-01",
+    "priceUsdPerOz": 1330.73
+  },
+  {
+    "date": "2018-03-01",
+    "priceUsdPerOz": 1324.66
+  },
+  {
+    "date": "2018-04-01",
+    "priceUsdPerOz": 1334.76
+  },
+  {
+    "date": "2018-05-01",
+    "priceUsdPerOz": 1303.45
+  },
+  {
+    "date": "2018-06-01",
+    "priceUsdPerOz": 1281.57
+  },
+  {
+    "date": "2018-07-01",
+    "priceUsdPerOz": 1237.71
+  },
+  {
+    "date": "2018-08-01",
+    "priceUsdPerOz": 1201.71
+  },
+  {
+    "date": "2018-09-01",
+    "priceUsdPerOz": 1198.39
+  },
+  {
+    "date": "2018-10-01",
+    "priceUsdPerOz": 1215.39
+  },
+  {
+    "date": "2018-11-01",
+    "priceUsdPerOz": 1220.65
+  },
+  {
+    "date": "2018-12-01",
+    "priceUsdPerOz": 1250.4
+  },
+  {
+    "date": "2019-01-01",
+    "priceUsdPerOz": 1291.75
+  },
+  {
+    "date": "2019-02-01",
+    "priceUsdPerOz": 1320.07
+  },
+  {
+    "date": "2019-03-01",
+    "priceUsdPerOz": 1300.9
+  },
+  {
+    "date": "2019-04-01",
+    "priceUsdPerOz": 1285.91
+  },
+  {
+    "date": "2019-05-01",
+    "priceUsdPerOz": 1283.7
+  },
+  {
+    "date": "2019-06-01",
+    "priceUsdPerOz": 1359.04
+  },
+  {
+    "date": "2019-07-01",
+    "priceUsdPerOz": 1412.89
+  },
+  {
+    "date": "2019-08-01",
+    "priceUsdPerOz": 1500.41
+  },
+  {
+    "date": "2019-09-01",
+    "priceUsdPerOz": 1510.58
+  },
+  {
+    "date": "2019-10-01",
+    "priceUsdPerOz": 1494.81
+  },
+  {
+    "date": "2019-11-01",
+    "priceUsdPerOz": 1470.79
+  },
+  {
+    "date": "2019-12-01",
+    "priceUsdPerOz": 1479.13
+  },
+  {
+    "date": "2020-01-01",
+    "priceUsdPerOz": 1560.67
+  },
+  {
+    "date": "2020-02-01",
+    "priceUsdPerOz": 1597.1
+  },
+  {
+    "date": "2020-03-01",
+    "priceUsdPerOz": 1591.93
+  },
+  {
+    "date": "2020-04-01",
+    "priceUsdPerOz": 1683.17
+  },
+  {
+    "date": "2020-05-01",
+    "priceUsdPerOz": 1715.91
+  },
+  {
+    "date": "2020-06-01",
+    "priceUsdPerOz": 1732.22
+  },
+  {
+    "date": "2020-07-01",
+    "priceUsdPerOz": 1846.51
+  },
+  {
+    "date": "2020-08-01",
+    "priceUsdPerOz": 1968.63
+  },
+  {
+    "date": "2020-09-01",
+    "priceUsdPerOz": 1921.92
+  },
+  {
+    "date": "2020-10-01",
+    "priceUsdPerOz": 1900.27
+  },
+  {
+    "date": "2020-11-01",
+    "priceUsdPerOz": 1866.3
+  },
+  {
+    "date": "2020-12-01",
+    "priceUsdPerOz": 1858.42
+  },
+  {
+    "date": "2021-01-01",
+    "priceUsdPerOz": 1866.98
+  },
+  {
+    "date": "2021-01-01",
+    "priceUsdPerOz": 1866.98
+  },
+  {
+    "date": "2021-02-01",
+    "priceUsdPerOz": 1808.17
+  },
+  {
+    "date": "2021-03-01",
+    "priceUsdPerOz": 1718.23
+  },
+  {
+    "date": "2021-04-01",
+    "priceUsdPerOz": 1760.04
+  },
+  {
+    "date": "2021-05-01",
+    "priceUsdPerOz": 1850.26
+  },
+  {
+    "date": "2021-06-01",
+    "priceUsdPerOz": 1834.57
+  },
+  {
+    "date": "2021-07-01",
+    "priceUsdPerOz": 1807.84
+  },
+  {
+    "date": "2021-08-01",
+    "priceUsdPerOz": 1785.28
+  },
+  {
+    "date": "2021-09-01",
+    "priceUsdPerOz": 1775.14
+  },
+  {
+    "date": "2021-10-01",
+    "priceUsdPerOz": 1776.85
+  },
+  {
+    "date": "2021-11-01",
+    "priceUsdPerOz": 1821.76
+  },
+  {
+    "date": "2021-12-01",
+    "priceUsdPerOz": 1790.43
+  },
+  {
+    "date": "2022-01-01",
+    "priceUsdPerOz": 1816.02
+  },
+  {
+    "date": "2022-02-01",
+    "priceUsdPerOz": 1856.3
+  },
+  {
+    "date": "2022-03-01",
+    "priceUsdPerOz": 1947.83
+  },
+  {
+    "date": "2022-04-01",
+    "priceUsdPerOz": 1936.86
+  },
+  {
+    "date": "2022-05-01",
+    "priceUsdPerOz": 1848.5
+  },
+  {
+    "date": "2022-06-01",
+    "priceUsdPerOz": 1836.57
+  },
+  {
+    "date": "2022-07-01",
+    "priceUsdPerOz": 1732.74
+  },
+  {
+    "date": "2022-08-01",
+    "priceUsdPerOz": 1764.56
+  },
+  {
+    "date": "2022-09-01",
+    "priceUsdPerOz": 1680.78
+  },
+  {
+    "date": "2022-10-01",
+    "priceUsdPerOz": 1664.45
+  },
+  {
+    "date": "2022-11-01",
+    "priceUsdPerOz": 1725.07
+  },
+  {
+    "date": "2022-12-01",
+    "priceUsdPerOz": 1797.55
+  },
+  {
+    "date": "2023-01-01",
+    "priceUsdPerOz": 1897.71
+  },
+  {
+    "date": "2023-02-01",
+    "priceUsdPerOz": 1854.54
+  },
+  {
+    "date": "2023-03-01",
+    "priceUsdPerOz": 1912.73
+  },
+  {
+    "date": "2023-04-01",
+    "priceUsdPerOz": 1999.77
+  },
+  {
+    "date": "2023-05-01",
+    "priceUsdPerOz": 1992.13
+  },
+  {
+    "date": "2023-06-01",
+    "priceUsdPerOz": 1942.9
+  },
+  {
+    "date": "2023-07-01",
+    "priceUsdPerOz": 1951.02
+  },
+  {
+    "date": "2023-08-01",
+    "priceUsdPerOz": 1918.7
+  },
+  {
+    "date": "2023-09-01",
+    "priceUsdPerOz": 1915.95
+  },
+  {
+    "date": "2023-10-01",
+    "priceUsdPerOz": 1916.25
+  },
+  {
+    "date": "2023-11-01",
+    "priceUsdPerOz": 1984.11
+  },
+  {
+    "date": "2023-12-01",
+    "priceUsdPerOz": 2026.18
+  },
+  {
+    "date": "2024-01-01",
+    "priceUsdPerOz": 2034.04
+  },
+  {
+    "date": "2024-02-01",
+    "priceUsdPerOz": 2023.24
+  },
+  {
+    "date": "2024-03-01",
+    "priceUsdPerOz": 2158.01
+  },
+  {
+    "date": "2024-04-01",
+    "priceUsdPerOz": 2331.45
+  },
+  {
+    "date": "2024-05-01",
+    "priceUsdPerOz": 2351.13
+  },
+  {
+    "date": "2024-06-01",
+    "priceUsdPerOz": 2326.44
+  },
+  {
+    "date": "2024-07-01",
+    "priceUsdPerOz": 2398.2
+  },
+  {
+    "date": "2024-08-01",
+    "priceUsdPerOz": 2470.15
+  },
+  {
+    "date": "2024-09-01",
+    "priceUsdPerOz": 2570.55
+  },
+  {
+    "date": "2024-10-01",
+    "priceUsdPerOz": 2690.08
+  },
+  {
+    "date": "2024-11-01",
+    "priceUsdPerOz": 2651.13
+  },
+  {
+    "date": "2024-12-01",
+    "priceUsdPerOz": 2648.01
+  },
+  {
+    "date": "2025-01-02",
+    "priceUsdPerOz": 2658.89990234375
+  },
+  {
+    "date": "2025-01-03",
+    "priceUsdPerOz": 2645
+  },
+  {
+    "date": "2025-01-06",
+    "priceUsdPerOz": 2638.39990234375
+  },
+  {
+    "date": "2025-01-07",
+    "priceUsdPerOz": 2656.699951171875
+  },
+  {
+    "date": "2025-01-08",
+    "priceUsdPerOz": 2664.5
+  },
+  {
+    "date": "2025-01-09",
+    "priceUsdPerOz": 2683.800048828125
+  },
+  {
+    "date": "2025-01-10",
+    "priceUsdPerOz": 2708.5
+  },
+  {
+    "date": "2025-01-13",
+    "priceUsdPerOz": 2673.5
+  },
+  {
+    "date": "2025-01-14",
+    "priceUsdPerOz": 2677.5
+  },
+  {
+    "date": "2025-01-15",
+    "priceUsdPerOz": 2712.5
+  },
+  {
+    "date": "2025-01-16",
+    "priceUsdPerOz": 2746.39990234375
+  },
+  {
+    "date": "2025-01-17",
+    "priceUsdPerOz": 2744.300048828125
+  },
+  {
+    "date": "2025-01-21",
+    "priceUsdPerOz": 2755
+  },
+  {
+    "date": "2025-01-22",
+    "priceUsdPerOz": 2767.60009765625
+  },
+  {
+    "date": "2025-01-23",
+    "priceUsdPerOz": 2763.10009765625
+  },
+  {
+    "date": "2025-01-24",
+    "priceUsdPerOz": 2777.300048828125
+  },
+  {
+    "date": "2025-01-27",
+    "priceUsdPerOz": 2737.5
+  },
+  {
+    "date": "2025-01-28",
+    "priceUsdPerOz": 2766.800048828125
+  },
+  {
+    "date": "2025-01-29",
+    "priceUsdPerOz": 2769.10009765625
+  },
+  {
+    "date": "2025-01-30",
+    "priceUsdPerOz": 2823
+  },
+  {
+    "date": "2025-01-31",
+    "priceUsdPerOz": 2812.5
+  },
+  {
+    "date": "2025-02-03",
+    "priceUsdPerOz": 2833.89990234375
+  },
+  {
+    "date": "2025-02-04",
+    "priceUsdPerOz": 2853.300048828125
+  },
+  {
+    "date": "2025-02-05",
+    "priceUsdPerOz": 2871.60009765625
+  },
+  {
+    "date": "2025-02-06",
+    "priceUsdPerOz": 2856
+  },
+  {
+    "date": "2025-02-07",
+    "priceUsdPerOz": 2867.300048828125
+  },
+  {
+    "date": "2025-02-10",
+    "priceUsdPerOz": 2914.300048828125
+  },
+  {
+    "date": "2025-02-11",
+    "priceUsdPerOz": 2912.5
+  },
+  {
+    "date": "2025-02-12",
+    "priceUsdPerOz": 2909
+  },
+  {
+    "date": "2025-02-13",
+    "priceUsdPerOz": 2925.89990234375
+  },
+  {
+    "date": "2025-02-14",
+    "priceUsdPerOz": 2883.60009765625
+  },
+  {
+    "date": "2025-02-18",
+    "priceUsdPerOz": 2931.60009765625
+  },
+  {
+    "date": "2025-02-19",
+    "priceUsdPerOz": 2919.39990234375
+  },
+  {
+    "date": "2025-02-20",
+    "priceUsdPerOz": 2940
+  },
+  {
+    "date": "2025-02-21",
+    "priceUsdPerOz": 2937.60009765625
+  },
+  {
+    "date": "2025-02-24",
+    "priceUsdPerOz": 2947.89990234375
+  },
+  {
+    "date": "2025-02-25",
+    "priceUsdPerOz": 2904.5
+  },
+  {
+    "date": "2025-02-26",
+    "priceUsdPerOz": 2916.800048828125
+  },
+  {
+    "date": "2025-02-27",
+    "priceUsdPerOz": 2883.199951171875
+  },
+  {
+    "date": "2025-02-28",
+    "priceUsdPerOz": 2836.800048828125
+  },
+  {
+    "date": "2025-03-03",
+    "priceUsdPerOz": 2890.199951171875
+  },
+  {
+    "date": "2025-03-04",
+    "priceUsdPerOz": 2909.60009765625
+  },
+  {
+    "date": "2025-03-05",
+    "priceUsdPerOz": 2915.300048828125
+  },
+  {
+    "date": "2025-03-06",
+    "priceUsdPerOz": 2916.60009765625
+  },
+  {
+    "date": "2025-03-07",
+    "priceUsdPerOz": 2904.699951171875
+  },
+  {
+    "date": "2025-03-10",
+    "priceUsdPerOz": 2891
+  },
+  {
+    "date": "2025-03-11",
+    "priceUsdPerOz": 2912.89990234375
+  },
+  {
+    "date": "2025-03-12",
+    "priceUsdPerOz": 2939.10009765625
+  },
+  {
+    "date": "2025-03-13",
+    "priceUsdPerOz": 2984.300048828125
+  },
+  {
+    "date": "2025-03-14",
+    "priceUsdPerOz": 2994.5
+  },
+  {
+    "date": "2025-03-17",
+    "priceUsdPerOz": 3000
+  },
+  {
+    "date": "2025-03-18",
+    "priceUsdPerOz": 3035.10009765625
+  },
+  {
+    "date": "2025-03-19",
+    "priceUsdPerOz": 3035.89990234375
+  },
+  {
+    "date": "2025-03-20",
+    "priceUsdPerOz": 3040
+  },
+  {
+    "date": "2025-03-21",
+    "priceUsdPerOz": 3018.199951171875
+  },
+  {
+    "date": "2025-03-24",
+    "priceUsdPerOz": 3013.10009765625
+  },
+  {
+    "date": "2025-03-25",
+    "priceUsdPerOz": 3023.699951171875
+  },
+  {
+    "date": "2025-03-26",
+    "priceUsdPerOz": 3020.89990234375
+  },
+  {
+    "date": "2025-03-27",
+    "priceUsdPerOz": 3060.199951171875
+  },
+  {
+    "date": "2025-03-28",
+    "priceUsdPerOz": 3086.5
+  },
+  {
+    "date": "2025-03-31",
+    "priceUsdPerOz": 3122.800048828125
+  },
+  {
+    "date": "2025-04-01",
+    "priceUsdPerOz": 3118.89990234375
+  },
+  {
+    "date": "2025-04-02",
+    "priceUsdPerOz": 3139.89990234375
+  },
+  {
+    "date": "2025-04-03",
+    "priceUsdPerOz": 3097
+  },
+  {
+    "date": "2025-04-04",
+    "priceUsdPerOz": 3012
+  },
+  {
+    "date": "2025-04-07",
+    "priceUsdPerOz": 2951.300048828125
+  },
+  {
+    "date": "2025-04-08",
+    "priceUsdPerOz": 2968.39990234375
+  },
+  {
+    "date": "2025-04-09",
+    "priceUsdPerOz": 3056.5
+  },
+  {
+    "date": "2025-04-10",
+    "priceUsdPerOz": 3155.199951171875
+  },
+  {
+    "date": "2025-04-11",
+    "priceUsdPerOz": 3222.199951171875
+  },
+  {
+    "date": "2025-04-14",
+    "priceUsdPerOz": 3204.800048828125
+  },
+  {
+    "date": "2025-04-15",
+    "priceUsdPerOz": 3218.699951171875
+  },
+  {
+    "date": "2025-04-16",
+    "priceUsdPerOz": 3326.60009765625
+  },
+  {
+    "date": "2025-04-17",
+    "priceUsdPerOz": 3308.699951171875
+  },
+  {
+    "date": "2025-04-21",
+    "priceUsdPerOz": 3406.199951171875
+  },
+  {
+    "date": "2025-04-22",
+    "priceUsdPerOz": 3400.800048828125
+  },
+  {
+    "date": "2025-04-23",
+    "priceUsdPerOz": 3276.300048828125
+  },
+  {
+    "date": "2025-04-24",
+    "priceUsdPerOz": 3332
+  },
+  {
+    "date": "2025-04-25",
+    "priceUsdPerOz": 3282.39990234375
+  },
+  {
+    "date": "2025-04-28",
+    "priceUsdPerOz": 3332.5
+  },
+  {
+    "date": "2025-04-29",
+    "priceUsdPerOz": 3318.800048828125
+  },
+  {
+    "date": "2025-04-30",
+    "priceUsdPerOz": 3305
+  },
+  {
+    "date": "2025-05-01",
+    "priceUsdPerOz": 3210
+  },
+  {
+    "date": "2025-05-02",
+    "priceUsdPerOz": 3231.89990234375
+  },
+  {
+    "date": "2025-05-05",
+    "priceUsdPerOz": 3311.300048828125
+  },
+  {
+    "date": "2025-05-06",
+    "priceUsdPerOz": 3411.39990234375
+  },
+  {
+    "date": "2025-05-07",
+    "priceUsdPerOz": 3381.39990234375
+  },
+  {
+    "date": "2025-05-08",
+    "priceUsdPerOz": 3296.60009765625
+  },
+  {
+    "date": "2025-05-09",
+    "priceUsdPerOz": 3335.39990234375
+  },
+  {
+    "date": "2025-05-12",
+    "priceUsdPerOz": 3220
+  },
+  {
+    "date": "2025-05-13",
+    "priceUsdPerOz": 3240.300048828125
+  },
+  {
+    "date": "2025-05-14",
+    "priceUsdPerOz": 3181.39990234375
+  },
+  {
+    "date": "2025-05-15",
+    "priceUsdPerOz": 3220.699951171875
+  },
+  {
+    "date": "2025-05-16",
+    "priceUsdPerOz": 3182
+  },
+  {
+    "date": "2025-05-19",
+    "priceUsdPerOz": 3228.89990234375
+  },
+  {
+    "date": "2025-05-20",
+    "priceUsdPerOz": 3280.300048828125
+  },
+  {
+    "date": "2025-05-21",
+    "priceUsdPerOz": 3309.300048828125
+  },
+  {
+    "date": "2025-05-22",
+    "priceUsdPerOz": 3292.300048828125
+  },
+  {
+    "date": "2025-05-23",
+    "priceUsdPerOz": 3363.60009765625
+  },
+  {
+    "date": "2025-05-27",
+    "priceUsdPerOz": 3299.10009765625
+  },
+  {
+    "date": "2025-05-28",
+    "priceUsdPerOz": 3293.60009765625
+  },
+  {
+    "date": "2025-05-29",
+    "priceUsdPerOz": 3317.10009765625
+  },
+  {
+    "date": "2025-05-30",
+    "priceUsdPerOz": 3288.89990234375
+  },
+  {
+    "date": "2025-06-02",
+    "priceUsdPerOz": 3370.60009765625
+  },
+  {
+    "date": "2025-06-03",
+    "priceUsdPerOz": 3350.199951171875
+  },
+  {
+    "date": "2025-06-04",
+    "priceUsdPerOz": 3373.5
+  },
+  {
+    "date": "2025-06-05",
+    "priceUsdPerOz": 3350.699951171875
+  },
+  {
+    "date": "2025-06-06",
+    "priceUsdPerOz": 3322.699951171875
+  },
+  {
+    "date": "2025-06-09",
+    "priceUsdPerOz": 3332.10009765625
+  },
+  {
+    "date": "2025-06-10",
+    "priceUsdPerOz": 3320.89990234375
+  },
+  {
+    "date": "2025-06-11",
+    "priceUsdPerOz": 3321.300048828125
+  },
+  {
+    "date": "2025-06-12",
+    "priceUsdPerOz": 3380.89990234375
+  },
+  {
+    "date": "2025-06-13",
+    "priceUsdPerOz": 3431.199951171875
+  },
+  {
+    "date": "2025-06-16",
+    "priceUsdPerOz": 3396.39990234375
+  },
+  {
+    "date": "2025-06-17",
+    "priceUsdPerOz": 3386.60009765625
+  },
+  {
+    "date": "2025-06-18",
+    "priceUsdPerOz": 3389.800048828125
+  },
+  {
+    "date": "2025-06-20",
+    "priceUsdPerOz": 3368.10009765625
+  },
+  {
+    "date": "2025-06-23",
+    "priceUsdPerOz": 3377.699951171875
+  },
+  {
+    "date": "2025-06-24",
+    "priceUsdPerOz": 3317.39990234375
+  },
+  {
+    "date": "2025-06-25",
+    "priceUsdPerOz": 3327.10009765625
+  },
+  {
+    "date": "2025-06-26",
+    "priceUsdPerOz": 3333.5
+  },
+  {
+    "date": "2025-06-27",
+    "priceUsdPerOz": 3273.699951171875
+  },
+  {
+    "date": "2025-06-30",
+    "priceUsdPerOz": 3294.39990234375
+  },
+  {
+    "date": "2025-07-01",
+    "priceUsdPerOz": 3336.699951171875
+  },
+  {
+    "date": "2025-07-02",
+    "priceUsdPerOz": 3348
+  },
+  {
+    "date": "2025-07-03",
+    "priceUsdPerOz": 3331.60009765625
+  },
+  {
+    "date": "2025-07-04",
+    "priceUsdPerOz": 3332.5
+  },
+  {
+    "date": "2025-07-07",
+    "priceUsdPerOz": 3332.199951171875
+  },
+  {
+    "date": "2025-07-08",
+    "priceUsdPerOz": 3307
+  },
+  {
+    "date": "2025-07-09",
+    "priceUsdPerOz": 3311.60009765625
+  },
+  {
+    "date": "2025-07-10",
+    "priceUsdPerOz": 3317.39990234375
+  },
+  {
+    "date": "2025-07-11",
+    "priceUsdPerOz": 3356
+  },
+  {
+    "date": "2025-07-14",
+    "priceUsdPerOz": 3351.5
+  },
+  {
+    "date": "2025-07-15",
+    "priceUsdPerOz": 3329.800048828125
+  },
+  {
+    "date": "2025-07-16",
+    "priceUsdPerOz": 3352.5
+  },
+  {
+    "date": "2025-07-17",
+    "priceUsdPerOz": 3340.10009765625
+  },
+  {
+    "date": "2025-07-18",
+    "priceUsdPerOz": 3353
+  },
+  {
+    "date": "2025-07-21",
+    "priceUsdPerOz": 3401.89990234375
+  },
+  {
+    "date": "2025-07-22",
+    "priceUsdPerOz": 3439.199951171875
+  },
+  {
+    "date": "2025-07-23",
+    "priceUsdPerOz": 3394.10009765625
+  },
+  {
+    "date": "2025-07-24",
+    "priceUsdPerOz": 3371
+  },
+  {
+    "date": "2025-07-25",
+    "priceUsdPerOz": 3334
+  },
+  {
+    "date": "2025-07-28",
+    "priceUsdPerOz": 3309.10009765625
+  },
+  {
+    "date": "2025-07-29",
+    "priceUsdPerOz": 3323.39990234375
+  },
+  {
+    "date": "2025-07-30",
+    "priceUsdPerOz": 3295.800048828125
+  },
+  {
+    "date": "2025-07-31",
+    "priceUsdPerOz": 3293.199951171875
+  },
+  {
+    "date": "2025-08-01",
+    "priceUsdPerOz": 3347.699951171875
+  },
+  {
+    "date": "2025-08-04",
+    "priceUsdPerOz": 3374.39990234375
+  },
+  {
+    "date": "2025-08-05",
+    "priceUsdPerOz": 3381.89990234375
+  },
+  {
+    "date": "2025-08-06",
+    "priceUsdPerOz": 3380
+  },
+  {
+    "date": "2025-08-07",
+    "priceUsdPerOz": 3400.300048828125
+  },
+  {
+    "date": "2025-08-08",
+    "priceUsdPerOz": 3439.10009765625
+  },
+  {
+    "date": "2025-08-11",
+    "priceUsdPerOz": 3353.10009765625
+  },
+  {
+    "date": "2025-08-12",
+    "priceUsdPerOz": 3348.89990234375
+  },
+  {
+    "date": "2025-08-13",
+    "priceUsdPerOz": 3358.699951171875
+  },
+  {
+    "date": "2025-08-14",
+    "priceUsdPerOz": 3335.199951171875
+  },
+  {
+    "date": "2025-08-15",
+    "priceUsdPerOz": 3336
+  },
+  {
+    "date": "2025-08-18",
+    "priceUsdPerOz": 3331.699951171875
+  },
+  {
+    "date": "2025-08-19",
+    "priceUsdPerOz": 3313.39990234375
+  },
+  {
+    "date": "2025-08-20",
+    "priceUsdPerOz": 3343.39990234375
+  },
+  {
+    "date": "2025-08-21",
+    "priceUsdPerOz": 3336.89990234375
+  },
+  {
+    "date": "2025-08-22",
+    "priceUsdPerOz": 3374.39990234375
+  },
+  {
+    "date": "2025-08-25",
+    "priceUsdPerOz": 3373.800048828125
+  },
+  {
+    "date": "2025-08-26",
+    "priceUsdPerOz": 3388.60009765625
+  },
+  {
+    "date": "2025-08-27",
+    "priceUsdPerOz": 3404.60009765625
+  },
+  {
+    "date": "2025-08-28",
+    "priceUsdPerOz": 3431.800048828125
+  },
+  {
+    "date": "2025-08-29",
+    "priceUsdPerOz": 3473.699951171875
+  },
+  {
+    "date": "2025-09-02",
+    "priceUsdPerOz": 3549.39990234375
+  },
+  {
+    "date": "2025-09-03",
+    "priceUsdPerOz": 3593.199951171875
+  },
+  {
+    "date": "2025-09-04",
+    "priceUsdPerOz": 3565.800048828125
+  },
+  {
+    "date": "2025-09-05",
+    "priceUsdPerOz": 3613.199951171875
+  },
+  {
+    "date": "2025-09-08",
+    "priceUsdPerOz": 3638.10009765625
+  },
+  {
+    "date": "2025-09-09",
+    "priceUsdPerOz": 3643.300048828125
+  },
+  {
+    "date": "2025-09-10",
+    "priceUsdPerOz": 3643.60009765625
+  },
+  {
+    "date": "2025-09-11",
+    "priceUsdPerOz": 3636.89990234375
+  },
+  {
+    "date": "2025-09-12",
+    "priceUsdPerOz": 3649.39990234375
+  },
+  {
+    "date": "2025-09-15",
+    "priceUsdPerOz": 3682.199951171875
+  },
+  {
+    "date": "2025-09-16",
+    "priceUsdPerOz": 3688.89990234375
+  },
+  {
+    "date": "2025-09-17",
+    "priceUsdPerOz": 3681.800048828125
+  },
+  {
+    "date": "2025-09-18",
+    "priceUsdPerOz": 3643.699951171875
+  },
+  {
+    "date": "2025-09-19",
+    "priceUsdPerOz": 3671.5
+  },
+  {
+    "date": "2025-09-22",
+    "priceUsdPerOz": 3740.699951171875
+  },
+  {
+    "date": "2025-09-23",
+    "priceUsdPerOz": 3780.60009765625
+  },
+  {
+    "date": "2025-09-24",
+    "priceUsdPerOz": 3732.10009765625
+  },
+  {
+    "date": "2025-09-25",
+    "priceUsdPerOz": 3736.89990234375
+  },
+  {
+    "date": "2025-09-26",
+    "priceUsdPerOz": 3775.300048828125
+  },
+  {
+    "date": "2025-09-29",
+    "priceUsdPerOz": 3820.89990234375
+  },
+  {
+    "date": "2025-09-30",
+    "priceUsdPerOz": 3840.800048828125
+  },
+  {
+    "date": "2025-10-01",
+    "priceUsdPerOz": 3867.5
+  },
+  {
+    "date": "2025-10-02",
+    "priceUsdPerOz": 3839.699951171875
+  },
+  {
+    "date": "2025-10-03",
+    "priceUsdPerOz": 3880.800048828125
+  },
+  {
+    "date": "2025-10-06",
+    "priceUsdPerOz": 3948.5
+  },
+  {
+    "date": "2025-10-07",
+    "priceUsdPerOz": 3976.60009765625
+  },
+  {
+    "date": "2025-10-08",
+    "priceUsdPerOz": 4043.300048828125
+  },
+  {
+    "date": "2025-10-09",
+    "priceUsdPerOz": 3946.300048828125
+  },
+  {
+    "date": "2025-10-10",
+    "priceUsdPerOz": 3975.89990234375
+  },
+  {
+    "date": "2025-10-13",
+    "priceUsdPerOz": 4108.60009765625
+  },
+  {
+    "date": "2025-10-14",
+    "priceUsdPerOz": 4138.7001953125
+  },
+  {
+    "date": "2025-10-15",
+    "priceUsdPerOz": 4176.89990234375
+  },
+  {
+    "date": "2025-10-16",
+    "priceUsdPerOz": 4280.2001953125
+  },
+  {
+    "date": "2025-10-17",
+    "priceUsdPerOz": 4189.89990234375
+  },
+  {
+    "date": "2025-10-20",
+    "priceUsdPerOz": 4336.39990234375
+  },
+  {
+    "date": "2025-10-21",
+    "priceUsdPerOz": 4087.699951171875
+  },
+  {
+    "date": "2025-10-22",
+    "priceUsdPerOz": 4044.39990234375
+  },
+  {
+    "date": "2025-10-23",
+    "priceUsdPerOz": 4125.5
+  },
+  {
+    "date": "2025-10-24",
+    "priceUsdPerOz": 4118.39990234375
+  },
+  {
+    "date": "2025-10-27",
+    "priceUsdPerOz": 4001.89990234375
+  },
+  {
+    "date": "2025-10-28",
+    "priceUsdPerOz": 3966.199951171875
+  },
+  {
+    "date": "2025-10-29",
+    "priceUsdPerOz": 3983.699951171875
+  },
+  {
+    "date": "2025-10-30",
+    "priceUsdPerOz": 4001.300048828125
+  },
+  {
+    "date": "2025-10-31",
+    "priceUsdPerOz": 3982.199951171875
+  },
+  {
+    "date": "2025-11-03",
+    "priceUsdPerOz": 4000.300048828125
+  },
+  {
+    "date": "2025-11-04",
+    "priceUsdPerOz": 3947.699951171875
+  },
+  {
+    "date": "2025-11-05",
+    "priceUsdPerOz": 3980.300048828125
+  },
+  {
+    "date": "2025-11-06",
+    "priceUsdPerOz": 3979.89990234375
+  },
+  {
+    "date": "2025-11-07",
+    "priceUsdPerOz": 3999.39990234375
+  },
+  {
+    "date": "2025-11-10",
+    "priceUsdPerOz": 4111.7998046875
+  },
+  {
+    "date": "2025-11-11",
+    "priceUsdPerOz": 4106.7998046875
+  },
+  {
+    "date": "2025-11-12",
+    "priceUsdPerOz": 4204.39990234375
+  },
+  {
+    "date": "2025-11-13",
+    "priceUsdPerOz": 4186.89990234375
+  },
+  {
+    "date": "2025-11-14",
+    "priceUsdPerOz": 4087.60009765625
+  },
+  {
+    "date": "2025-11-17",
+    "priceUsdPerOz": 4068.300048828125
+  },
+  {
+    "date": "2025-11-18",
+    "priceUsdPerOz": 4061.300048828125
+  },
+  {
+    "date": "2025-11-19",
+    "priceUsdPerOz": 4077.699951171875
+  },
+  {
+    "date": "2025-11-20",
+    "priceUsdPerOz": 4056.5
+  },
+  {
+    "date": "2025-11-21",
+    "priceUsdPerOz": 4076.699951171875
+  },
+  {
+    "date": "2025-11-24",
+    "priceUsdPerOz": 4091.89990234375
+  },
+  {
+    "date": "2025-11-25",
+    "priceUsdPerOz": 4139.2001953125
+  },
+  {
+    "date": "2025-11-26",
+    "priceUsdPerOz": 4165.2001953125
+  },
+  {
+    "date": "2025-11-28",
+    "priceUsdPerOz": 4218.2998046875
+  },
+  {
+    "date": "2025-12-01",
+    "priceUsdPerOz": 4239.2998046875
+  },
+  {
+    "date": "2025-12-02",
+    "priceUsdPerOz": 4186.60009765625
+  },
+  {
+    "date": "2025-12-03",
+    "priceUsdPerOz": 4199.2998046875
+  },
+  {
+    "date": "2025-12-04",
+    "priceUsdPerOz": 4211.7998046875
+  },
+  {
+    "date": "2025-12-05",
+    "priceUsdPerOz": 4212.89990234375
+  },
+  {
+    "date": "2025-12-08",
+    "priceUsdPerOz": 4187.2001953125
+  },
+  {
+    "date": "2025-12-09",
+    "priceUsdPerOz": 4206.7001953125
+  },
+  {
+    "date": "2025-12-10",
+    "priceUsdPerOz": 4196.39990234375
+  },
+  {
+    "date": "2025-12-11",
+    "priceUsdPerOz": 4285.5
+  },
+  {
+    "date": "2025-12-12",
+    "priceUsdPerOz": 4300.10009765625
+  },
+  {
+    "date": "2025-12-15",
+    "priceUsdPerOz": 4306.7001953125
+  },
+  {
+    "date": "2025-12-16",
+    "priceUsdPerOz": 4304.5
+  },
+  {
+    "date": "2025-12-17",
+    "priceUsdPerOz": 4347.5
+  },
+  {
+    "date": "2025-12-18",
+    "priceUsdPerOz": 4339.5
+  },
+  {
+    "date": "2025-12-19",
+    "priceUsdPerOz": 4361.39990234375
+  },
+  {
+    "date": "2025-12-22",
+    "priceUsdPerOz": 4444.60009765625
+  },
+  {
+    "date": "2025-12-23",
+    "priceUsdPerOz": 4482.7998046875
+  },
+  {
+    "date": "2025-12-24",
+    "priceUsdPerOz": 4480.60009765625
+  },
+  {
+    "date": "2025-12-26",
+    "priceUsdPerOz": 4529.10009765625
+  },
+  {
+    "date": "2025-12-29",
+    "priceUsdPerOz": 4325.10009765625
+  },
+  {
+    "date": "2025-12-30",
+    "priceUsdPerOz": 4370.10009765625
+  },
+  {
+    "date": "2025-12-31",
+    "priceUsdPerOz": 4325.60009765625
+  },
+  {
+    "date": "2026-01-02",
+    "priceUsdPerOz": 4314.39990234375
+  },
+  {
+    "date": "2026-01-05",
+    "priceUsdPerOz": 4436.89990234375
+  },
+  {
+    "date": "2026-01-06",
+    "priceUsdPerOz": 4482.2001953125
+  },
+  {
+    "date": "2026-01-07",
+    "priceUsdPerOz": 4449.2998046875
+  },
+  {
+    "date": "2026-01-08",
+    "priceUsdPerOz": 4449.7001953125
+  },
+  {
+    "date": "2026-01-09",
+    "priceUsdPerOz": 4490.2998046875
+  },
+  {
+    "date": "2026-01-12",
+    "priceUsdPerOz": 4604.2998046875
+  },
+  {
+    "date": "2026-01-13",
+    "priceUsdPerOz": 4589.2001953125
+  },
+  {
+    "date": "2026-01-14",
+    "priceUsdPerOz": 4626.2998046875
+  },
+  {
+    "date": "2026-01-15",
+    "priceUsdPerOz": 4616.2998046875
+  },
+  {
+    "date": "2026-01-16",
+    "priceUsdPerOz": 4588.39990234375
+  },
+  {
+    "date": "2026-01-20",
+    "priceUsdPerOz": 4759.60009765625
+  },
+  {
+    "date": "2026-01-21",
+    "priceUsdPerOz": 4831.7998046875
+  },
+  {
+    "date": "2026-01-22",
+    "priceUsdPerOz": 4908.7998046875
+  },
+  {
+    "date": "2026-01-23",
+    "priceUsdPerOz": 4976.2001953125
+  },
+  {
+    "date": "2026-01-26",
+    "priceUsdPerOz": 5079.7001953125
+  },
+  {
+    "date": "2026-01-27",
+    "priceUsdPerOz": 5079.89990234375
+  },
+  {
+    "date": "2026-01-28",
+    "priceUsdPerOz": 5301.60009765625
+  },
+  {
+    "date": "2026-01-29",
+    "priceUsdPerOz": 5318.39990234375
+  },
+  {
+    "date": "2026-01-30",
+    "priceUsdPerOz": 4713.89990234375
+  },
+  {
+    "date": "2026-02-02",
+    "priceUsdPerOz": 4622.5
+  },
+  {
+    "date": "2026-02-03",
+    "priceUsdPerOz": 4903.7001953125
+  },
+  {
+    "date": "2026-02-04",
+    "priceUsdPerOz": 4920.39990234375
+  },
+  {
+    "date": "2026-02-05",
+    "priceUsdPerOz": 4861.39990234375
+  },
+  {
+    "date": "2026-02-06",
+    "priceUsdPerOz": 4951.2001953125
+  },
+  {
+    "date": "2026-02-09",
+    "priceUsdPerOz": 5050.89990234375
+  },
+  {
+    "date": "2026-02-10",
+    "priceUsdPerOz": 5003.7998046875
+  },
+  {
+    "date": "2026-02-11",
+    "priceUsdPerOz": 5071.60009765625
+  },
+  {
+    "date": "2026-02-12",
+    "priceUsdPerOz": 4923.7001953125
+  },
+  {
+    "date": "2026-02-13",
+    "priceUsdPerOz": 5022
+  },
+  {
+    "date": "2026-02-17",
+    "priceUsdPerOz": 4882.89990234375
+  },
+  {
+    "date": "2026-02-18",
+    "priceUsdPerOz": 4986.5
+  },
+  {
+    "date": "2026-02-19",
+    "priceUsdPerOz": 4975.89990234375
+  },
+  {
+    "date": "2026-02-20",
+    "priceUsdPerOz": 5059.2998046875
+  },
+  {
     "date": "2026-07-03",
-    "priceUsdPerOz": 4179.600098
+    "priceUsdPerOz": 4174.100098
   }
 ]

@@ -39,5 +39,7 @@ export interface GoldSignal {
   trailingHighUsdPerOz: number | null
   pctBelowHigh: number | null
   daysOfHistory: number
+  totalHistoryEntries: number
+  earliestHistoryDate: string
   message: string
 }

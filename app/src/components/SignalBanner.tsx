@@ -46,7 +46,9 @@ export function SignalBanner() {
       </div>
       <p className="mt-1 text-sm">{signal.message}</p>
       <p className="mt-1 text-xs opacity-60">
-        Heuristic based on public spot gold price trends — not financial advice.
+        Heuristic based on public spot gold price trends — not financial advice. Backed by price
+        history back to {new Date(signal.earliestHistoryDate).getFullYear()} (
+        {signal.totalHistoryEntries.toLocaleString()} data points).
       </p>
     </div>
   )

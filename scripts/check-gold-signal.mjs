@@ -17,7 +17,9 @@ const TRAILING_WINDOW_DAYS = 90
 const MIN_HISTORY_DAYS = 14
 const BUY_DIP_THRESHOLD = 0.05 // 5% below trailing high
 const SELL_NEAR_HIGH_THRESHOLD = 0.01 // within 1% of trailing high
-const MAX_HISTORY_ENTRIES = 400
+// Generous cap — long-term backfilled history (years, monthly granularity)
+// plus decades of future daily entries should never come close to this.
+const MAX_HISTORY_ENTRIES = 20000
 
 async function readJson(filePath, fallback) {
   try {
@@ -39,18 +41,30 @@ function todayIso() {
   return new Date().toISOString().slice(0, 10)
 }
 
-function computeSignal(history) {
-  const windowEntries = history.slice(-TRAILING_WINDOW_DAYS)
+function daysBeforeIso(iso, days) {
+  const d = new Date(`${iso}T00:00:00Z`)
+  d.setUTCDate(d.getUTCDate() - days)
+  return d.toISOString().slice(0, 10)
+}
+
+// Uses a calendar-day window (not "last N entries") so that deep backfilled
+// history — which may have a gap between its cutoff and today — can never be
+// mistaken for real recent coverage. Only entries actually within the
+// trailing window count towards the signal or the min-history gate.
+function computeSignal(history, todayDate) {
+  const cutoff = daysBeforeIso(todayDate, TRAILING_WINDOW_DAYS)
+  const windowEntries = history.filter((e) => e.date >= cutoff && e.date <= todayDate)
   const trailingHigh = Math.max(...windowEntries.map((e) => e.priceUsdPerOz))
   const latest = windowEntries[windowEntries.length - 1].priceUsdPerOz
   const pctBelowHigh = (trailingHigh - latest) / trailingHigh
 
-  if (history.length < MIN_HISTORY_DAYS) {
+  if (windowEntries.length < MIN_HISTORY_DAYS) {
     return {
       status: 'ACCUMULATING_HISTORY',
       trailingHighUsdPerOz: trailingHigh,
       pctBelowHigh,
-      message: `Still building up price history (${history.length}/${MIN_HISTORY_DAYS} days) before suggesting buy/sell timing.`,
+      daysOfHistory: windowEntries.length,
+      message: `Still building up recent price history (${windowEntries.length}/${MIN_HISTORY_DAYS} days) before suggesting buy/sell timing.`,
     }
   }
 
@@ -59,6 +73,7 @@ function computeSignal(history) {
       status: 'BUY',
       trailingHighUsdPerOz: trailingHigh,
       pctBelowHigh,
+      daysOfHistory: windowEntries.length,
       message: `Spot gold is ${(pctBelowHigh * 100).toFixed(1)}% below its ${TRAILING_WINDOW_DAYS}-day high — historically a reasonable time to add to a position.`,
     }
   }
@@ -68,6 +83,7 @@ function computeSignal(history) {
       status: 'SELL',
       trailingHighUsdPerOz: trailingHigh,
       pctBelowHigh,
+      daysOfHistory: windowEntries.length,
       message: `Spot gold is within ${(SELL_NEAR_HIGH_THRESHOLD * 100).toFixed(0)}% of its ${TRAILING_WINDOW_DAYS}-day high — consider taking some profit.`,
     }
   }
@@ -76,6 +92,7 @@ function computeSignal(history) {
     status: 'HOLD',
     trailingHighUsdPerOz: trailingHigh,
     pctBelowHigh,
+    daysOfHistory: windowEntries.length,
     message: `Spot gold is ${(pctBelowHigh * 100).toFixed(1)}% below its ${TRAILING_WINDOW_DAYS}-day high — no strong signal either way.`,
   }
 }
@@ -108,7 +125,7 @@ async function main() {
     .slice(-MAX_HISTORY_ENTRIES)
 
   const previousSignal = await readJson(SIGNAL_PATH, null)
-  const computed = computeSignal(updatedHistory)
+  const computed = computeSignal(updatedHistory, date)
 
   const signal = {
     status: computed.status,
@@ -116,7 +133,9 @@ async function main() {
     priceUsdPerOz: price,
     trailingHighUsdPerOz: computed.trailingHighUsdPerOz,
     pctBelowHigh: computed.pctBelowHigh,
-    daysOfHistory: updatedHistory.length,
+    daysOfHistory: computed.daysOfHistory,
+    totalHistoryEntries: updatedHistory.length,
+    earliestHistoryDate: updatedHistory[0]?.date ?? date,
     message: computed.message,
   }
 
