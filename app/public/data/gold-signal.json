@@ -1,11 +1,11 @@
 {
   "status": "ACCUMULATING_HISTORY",
-  "asOf": "2026-07-05T08:42:51.568Z",
-  "priceUsdPerOz": 4176.100098,
+  "asOf": "2026-07-06T09:59:32.536Z",
+  "priceUsdPerOz": 4144.700195,
   "trailingHighUsdPerOz": 4178.899902,
-  "pctBelowHigh": 0.0006699858971640479,
-  "daysOfHistory": 3,
-  "totalHistoryEntries": 1070,
+  "pctBelowHigh": 0.008183901936400046,
+  "daysOfHistory": 4,
+  "totalHistoryEntries": 1071,
   "earliestHistoryDate": "1960-01-01",
-  "message": "Still building up recent price history (3/14 days) before suggesting buy/sell timing."
+  "message": "Still building up recent price history (4/14 days) before suggesting buy/sell timing."
 }
