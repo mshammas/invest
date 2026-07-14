@@ -78,17 +78,24 @@ export default function App() {
     const blob = await packPortfolioFile(portfolioFile)
     if (fileHandle) {
       await saveToHandle(fileHandle, blob)
+      setRestoredDraft(false)
     } else {
-      const handle = await saveAsPortfolioFile(blob, suggestedFileName(portfolioFile.manifest.fileLabel))
-      if (handle) setFileHandle(handle)
+      const result = await saveAsPortfolioFile(blob, suggestedFileName(portfolioFile.manifest.fileLabel))
+      if (result.status === 'saved') {
+        setFileHandle(result.handle)
+        setRestoredDraft(false)
+      }
     }
   }
 
   async function handleSaveAs() {
     if (!portfolioFile) return
     const blob = await packPortfolioFile(portfolioFile)
-    const handle = await saveAsPortfolioFile(blob, suggestedFileName(portfolioFile.manifest.fileLabel))
-    if (handle) setFileHandle(handle)
+    const result = await saveAsPortfolioFile(blob, suggestedFileName(portfolioFile.manifest.fileLabel))
+    if (result.status === 'saved') {
+      setFileHandle(result.handle)
+      setRestoredDraft(false)
+    }
   }
 
   function addTransaction(t: Omit<Transaction, 'id'>) {

@@ -51,23 +51,30 @@ export async function saveToHandle(handle: FileSystemFileHandle, blob: Blob): Pr
   await writable.close()
 }
 
-/** Prompts for a new location/name (or downloads, on browsers without the File System Access API). */
-export async function saveAsPortfolioFile(
-  blob: Blob,
-  suggestedName: string,
-): Promise<FileSystemFileHandle | null> {
+export type SaveAsResult =
+  | { status: 'saved'; handle: FileSystemFileHandle | null }
+  | { status: 'aborted' }
+
+/**
+ * Prompts for a new location/name (or downloads, on browsers without the
+ * File System Access API). Distinguishes "saved via download fallback"
+ * (handle: null, status: 'saved') from "user cancelled the picker"
+ * (status: 'aborted') — both used to collapse to a `null` return, which made
+ * callers unable to tell a successful download-fallback save from a no-op.
+ */
+export async function saveAsPortfolioFile(blob: Blob, suggestedName: string): Promise<SaveAsResult> {
   if (supportsFileSystemAccess) {
     try {
       const handle = await window.showSaveFilePicker({ suggestedName, types: PICKER_TYPES })
       await saveToHandle(handle, blob)
-      return handle
+      return { status: 'saved', handle }
     } catch (err) {
-      if (isAbortError(err)) return null
+      if (isAbortError(err)) return { status: 'aborted' }
       throw err
     }
   }
   downloadBlob(blob, suggestedName)
-  return null
+  return { status: 'saved', handle: null }
 }
 
 function downloadBlob(blob: Blob, filename: string): void {
