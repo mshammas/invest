@@ -87,6 +87,9 @@ standard zip tool if needed.
   vendor).
 - Daily BUY/SELL/HOLD heuristic based on public spot gold price trends
   (dip-from-high / near-high), with Telegram alerts on change.
+- Price history chart with a hover tooltip, viewable in any major currency
+  (or INR) and per troy oz / gram / 8 grams, converted from the USD spot
+  price using free daily FX rates.
 - New/Open/Save/Save As, using the File System Access API where supported
   (Chrome/Edge) with a download/upload fallback elsewhere (Safari/Firefox).
 - A crash-recovery autosave to IndexedDB — never a substitute for explicitly
@@ -100,4 +103,4 @@ standard zip tool if needed.
 - PWA/offline support
 - User-editable alert thresholds
 - Multiple portfolio files / goals
-- Vendor-specific pricing and multi-currency conversion
+- Vendor-specific pricing (markup over spot gold)

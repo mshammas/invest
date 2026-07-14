@@ -5,10 +5,12 @@ import { TransactionForm } from './components/TransactionForm'
 import { TransactionList } from './components/TransactionList'
 import { SignalBanner } from './components/SignalBanner'
 import { PriceHistorySection } from './components/PriceHistorySection'
+import { CurrencyPicker } from './components/CurrencyPicker'
 import { createNewPortfolioFile, packPortfolioFile, unpackPortfolioFile, InvalidPortfolioFileError } from './lib/fileFormat'
 import { openPortfolioFile, saveAsPortfolioFile, saveToHandle } from './lib/fileSystem'
 import { computePortfolioSummary } from './lib/portfolio'
 import { loadDraft, saveDraft } from './lib/autosave'
+import { fetchExchangeRates, loadDisplayCurrencyPref, saveDisplayCurrencyPref } from './lib/currency'
 import type { PortfolioFile, Transaction } from './types'
 
 function suggestedFileName(fileLabel: string): string {
@@ -21,6 +23,8 @@ export default function App() {
   const [fileHandle, setFileHandle] = useState<FileSystemFileHandle | null>(null)
   const [currentPriceInput, setCurrentPriceInput] = useState('')
   const [restoredDraft, setRestoredDraft] = useState(false)
+  const [displayCurrency, setDisplayCurrency] = useState(loadDisplayCurrencyPref)
+  const [exchangeRates, setExchangeRates] = useState<Record<string, number>>({ USD: 1 })
 
   useEffect(() => {
     loadDraft().then((draft) => {
@@ -30,6 +34,15 @@ export default function App() {
       }
     })
   }, [])
+
+  useEffect(() => {
+    fetchExchangeRates().then(setExchangeRates)
+  }, [])
+
+  function handleDisplayCurrencyChange(code: string) {
+    setDisplayCurrency(code)
+    saveDisplayCurrencyPref(code)
+  }
 
   useEffect(() => {
     if (portfolioFile) saveDraft(portfolioFile)
@@ -106,11 +119,15 @@ export default function App() {
       </p>
 
       <div className="mb-6">
-        <SignalBanner />
+        <CurrencyPicker value={displayCurrency} onChange={handleDisplayCurrencyChange} />
       </div>
 
       <div className="mb-6">
-        <PriceHistorySection />
+        <SignalBanner currency={displayCurrency} rates={exchangeRates} />
+      </div>
+
+      <div className="mb-6">
+        <PriceHistorySection currency={displayCurrency} rates={exchangeRates} />
       </div>
 
       <FileMenu

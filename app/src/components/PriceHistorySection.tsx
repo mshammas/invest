@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { fetchGoldPriceHistory } from '../lib/priceHistory'
+import { convertFromUsd, formatCurrency, GRAMS_PER_TROY_OZ } from '../lib/currency'
 import type { PriceHistoryPoint } from '../types'
 
 const INK = '#0b0b0b'
@@ -17,6 +18,14 @@ const RANGE_OPTIONS: { key: RangeKey; label: string; days: number }[] = [
   { key: '1Y', label: '1 year', days: 365 },
   { key: '5Y', label: '5 years', days: 365 * 5 },
   { key: 'All', label: 'All', days: Infinity },
+]
+
+type UnitKey = 'oz' | 'g' | '8g'
+
+const UNIT_OPTIONS: { key: UnitKey; label: string }[] = [
+  { key: 'oz', label: 'Troy oz' },
+  { key: 'g', label: 'Gram' },
+  { key: '8g', label: '8 grams' },
 ]
 
 const VIEW_W = 800
@@ -37,10 +46,6 @@ function niceTicks(min: number, max: number, count = 4): number[] {
   return ticks
 }
 
-function fmtUsd(n: number): string {
-  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 2 }).format(n)
-}
-
 function fmtDateShort(iso: string): string {
   return new Date(`${iso}T00:00:00`).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })
 }
@@ -52,10 +57,16 @@ function fmtDateAxis(iso: string, spanDays: number): string {
   return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })
 }
 
-export function PriceHistorySection() {
+interface PriceHistorySectionProps {
+  currency: string
+  rates: Record<string, number>
+}
+
+export function PriceHistorySection({ currency, rates }: PriceHistorySectionProps) {
   const [history, setHistory] = useState<PriceHistoryPoint[] | null>(null)
   const [loaded, setLoaded] = useState(false)
   const [range, setRange] = useState<RangeKey>('30D')
+  const [unit, setUnit] = useState<UnitKey>('g')
   const [hoverIndex, setHoverIndex] = useState<number | null>(null)
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -77,10 +88,19 @@ export function PriceHistorySection() {
     return history.filter((e) => e.date >= cutoffIso)
   }, [history, range])
 
+  const toDisplay = useMemo(() => {
+    return (priceUsdPerOz: number) => {
+      const perOz = convertFromUsd(priceUsdPerOz, currency, rates)
+      if (unit === 'oz') return perOz
+      const perGram = perOz / GRAMS_PER_TROY_OZ
+      return unit === 'g' ? perGram : perGram * 8
+    }
+  }, [currency, rates, unit])
+
   const geometry = useMemo(() => {
     if (points.length === 0) return null
     const times = points.map((p) => new Date(`${p.date}T00:00:00Z`).getTime())
-    const values = points.map((p) => p.priceUsdPerOz)
+    const values = points.map((p) => toDisplay(p.priceUsdPerOz))
     const minT = times[0]
     const maxT = times[times.length - 1]
     const rawMinV = Math.min(...values)
@@ -92,7 +112,7 @@ export function PriceHistorySection() {
     const xScale = (t: number) => PAD.left + (maxT === minT ? PLOT_W / 2 : ((t - minT) / (maxT - minT)) * PLOT_W)
     const yScale = (v: number) => PAD.top + (1 - (v - minV) / (maxV - minV)) * PLOT_H
 
-    const pixels = points.map((p, i) => ({ x: xScale(times[i]), y: yScale(p.priceUsdPerOz) }))
+    const pixels = points.map((_, i) => ({ x: xScale(times[i]), y: yScale(values[i]) }))
     const path = pixels.map((pt, i) => `${i === 0 ? 'M' : 'L'}${pt.x.toFixed(1)},${pt.y.toFixed(1)}`).join(' ')
     // Ticks are generated from the padded domain (not the raw data range) and
     // then clamped, so a rounded-up top/bottom tick can never render outside
@@ -102,7 +122,7 @@ export function PriceHistorySection() {
     const xTickIdx = [0, Math.floor((points.length - 1) / 2), points.length - 1]
 
     return { pixels, path, yTicks, yScale, spanDays, xTickIdx, minT, maxT }
-  }, [points])
+  }, [points, toDisplay])
 
   if (!loaded) return null
   if (!history || history.length === 0 || !geometry) {
@@ -137,11 +157,14 @@ export function PriceHistorySection() {
 
   const tooltipLeftPct = hoveredPixel ? Math.min(92, Math.max(8, (hoveredPixel.x / VIEW_W) * 100)) : 0
   const tooltipTopPct = hoveredPixel ? (hoveredPixel.y / VIEW_H) * 100 : 0
+  const unitLabel = UNIT_OPTIONS.find((o) => o.key === unit)!.label
 
   return (
     <div className="rounded-lg border-2 border-slate-200 p-5">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
-        <h2 className="text-lg font-bold text-slate-900">Gold price history (USD / troy oz)</h2>
+        <h2 className="text-lg font-bold text-slate-900">
+          Gold price history ({currency} / {unitLabel.toLowerCase()})
+        </h2>
         <div className="flex flex-wrap gap-2">
           {RANGE_OPTIONS.map((opt) => (
             <button
@@ -157,6 +180,22 @@ export function PriceHistorySection() {
             </button>
           ))}
         </div>
+      </div>
+
+      <div className="mb-4 flex flex-wrap gap-2">
+        {UNIT_OPTIONS.map((opt) => (
+          <button
+            key={opt.key}
+            onClick={() => setUnit(opt.key)}
+            className={`min-h-[40px] rounded-lg border-2 px-3 text-sm font-medium ${
+              unit === opt.key
+                ? 'border-slate-900 bg-slate-900 text-white'
+                : 'border-slate-300 text-slate-700 hover:bg-slate-100'
+            }`}
+          >
+            per {opt.label.toLowerCase()}
+          </button>
+        ))}
       </div>
 
       <div
@@ -177,7 +216,7 @@ export function PriceHistorySection() {
                 strokeWidth={1}
               />
               <text x={PAD.left - 8} y={geometry.yScale(tick)} dy="0.32em" textAnchor="end" fontSize={12} fill={INK_MUTED}>
-                ${tick.toLocaleString()}
+                {formatCurrency(tick, currency)}
               </text>
             </g>
           ))}
@@ -216,7 +255,7 @@ export function PriceHistorySection() {
             fontWeight={600}
             fill={INK}
           >
-            {fmtUsd(latest.priceUsdPerOz)}
+            {formatCurrency(toDisplay(latest.priceUsdPerOz), currency)}
           </text>
 
           {hoveredPixel && (
@@ -232,7 +271,7 @@ export function PriceHistorySection() {
             className="pointer-events-none absolute z-10 -translate-x-1/2 -translate-y-[120%] whitespace-nowrap rounded-md border border-slate-200 bg-white px-3 py-2 text-sm shadow-md"
             style={{ left: `${tooltipLeftPct}%`, top: `${tooltipTopPct}%` }}
           >
-            <div className="font-semibold text-slate-900">{fmtUsd(hovered.priceUsdPerOz)}</div>
+            <div className="font-semibold text-slate-900">{formatCurrency(toDisplay(hovered.priceUsdPerOz), currency)}</div>
             <div className="text-slate-600">{fmtDateShort(hovered.date)}</div>
           </div>
         )}
@@ -242,36 +281,6 @@ export function PriceHistorySection() {
         {points.length.toLocaleString()} data points shown. Move your finger or mouse over the line to see a
         specific day's price.
       </p>
-
-      <DailyRateTable points={points} />
-    </div>
-  )
-}
-
-function DailyRateTable({ points }: { points: PriceHistoryPoint[] }) {
-  const [expanded, setExpanded] = useState(false)
-  const rows = [...points].reverse()
-  const visibleRows = expanded ? rows.slice(0, 200) : rows.slice(0, 14)
-
-  return (
-    <div className="mt-5 border-t-2 border-slate-100 pt-4">
-      <h3 className="mb-3 text-base font-semibold text-slate-900">Daily rates</h3>
-      <div className="space-y-2">
-        {visibleRows.map((p) => (
-          <div key={p.date} className="flex items-center justify-between rounded-md bg-slate-50 px-4 py-2.5">
-            <span className="text-base text-slate-700">{fmtDateShort(p.date)}</span>
-            <span className="text-base font-semibold tabular-nums text-slate-900">{fmtUsd(p.priceUsdPerOz)}</span>
-          </div>
-        ))}
-      </div>
-      {rows.length > 14 && (
-        <button
-          className="mt-3 min-h-[44px] rounded-lg border-2 border-slate-300 px-4 text-base font-medium text-slate-700 hover:bg-slate-100"
-          onClick={() => setExpanded((v) => !v)}
-        >
-          {expanded ? 'Show fewer' : `Show more (${Math.min(rows.length, 200).toLocaleString()} total in range)`}
-        </button>
-      )}
     </div>
   )
 }
