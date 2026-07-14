@@ -43,3 +43,8 @@ export interface GoldSignal {
   earliestHistoryDate: string
   message: string
 }
+
+export interface PriceHistoryPoint {
+  date: string
+  priceUsdPerOz: number
+}

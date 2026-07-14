@@ -10,6 +10,7 @@ import path from 'node:path'
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const HISTORY_PATH = path.join(REPO_ROOT, 'data', 'gold-price-history.json')
+const PUBLIC_HISTORY_PATH = path.join(REPO_ROOT, 'app', 'public', 'data', 'gold-price-history.json')
 const SIGNAL_PATH = path.join(REPO_ROOT, 'app', 'public', 'data', 'gold-signal.json')
 
 const PRICE_API_URL = 'https://api.gold-api.com/price/XAU'
@@ -139,9 +140,12 @@ async function main() {
     message: computed.message,
   }
 
+  const historyJson = JSON.stringify(updatedHistory, null, 2) + '\n'
   await mkdir(path.dirname(HISTORY_PATH), { recursive: true })
+  await mkdir(path.dirname(PUBLIC_HISTORY_PATH), { recursive: true })
   await mkdir(path.dirname(SIGNAL_PATH), { recursive: true })
-  await writeFile(HISTORY_PATH, JSON.stringify(updatedHistory, null, 2) + '\n')
+  await writeFile(HISTORY_PATH, historyJson)
+  await writeFile(PUBLIC_HISTORY_PATH, historyJson)
   await writeFile(SIGNAL_PATH, JSON.stringify(signal, null, 2) + '\n')
 
   console.log(`Gold signal: ${signal.status} (price $${price}/oz, ${signal.message})`)

@@ -1,9 +1,9 @@
 {
   "status": "ACCUMULATING_HISTORY",
-  "asOf": "2026-07-14T07:49:43.103Z",
-  "priceUsdPerOz": 4023.800049,
+  "asOf": "2026-07-14T17:37:07.089Z",
+  "priceUsdPerOz": 4062.800049,
   "trailingHighUsdPerOz": 4178.899902,
-  "pctBelowHigh": 0.03711499596479211,
+  "pctBelowHigh": 0.02778239625802843,
   "daysOfHistory": 12,
   "totalHistoryEntries": 1079,
   "earliestHistoryDate": "1960-01-01",

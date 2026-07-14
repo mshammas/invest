@@ -4,6 +4,7 @@ import { Dashboard } from './components/Dashboard'
 import { TransactionForm } from './components/TransactionForm'
 import { TransactionList } from './components/TransactionList'
 import { SignalBanner } from './components/SignalBanner'
+import { PriceHistorySection } from './components/PriceHistorySection'
 import { createNewPortfolioFile, packPortfolioFile, unpackPortfolioFile, InvalidPortfolioFileError } from './lib/fileFormat'
 import { openPortfolioFile, saveAsPortfolioFile, saveToHandle } from './lib/fileSystem'
 import { computePortfolioSummary } from './lib/portfolio'
@@ -106,6 +107,10 @@ export default function App() {
 
       <div className="mb-6">
         <SignalBanner />
+      </div>
+
+      <div className="mb-6">
+        <PriceHistorySection />
       </div>
 
       <FileMenu
