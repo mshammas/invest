@@ -1,11 +1,11 @@
 {
-  "status": "ACCUMULATING_HISTORY",
-  "asOf": "2026-07-15T07:53:06.728Z",
-  "priceUsdPerOz": 4024.300049,
+  "status": "HOLD",
+  "asOf": "2026-07-16T07:58:51.752Z",
+  "priceUsdPerOz": 4031.300049,
   "trailingHighUsdPerOz": 4178.899902,
-  "pctBelowHigh": 0.036995347250602835,
-  "daysOfHistory": 13,
-  "totalHistoryEntries": 1080,
+  "pctBelowHigh": 0.03532026525195294,
+  "daysOfHistory": 14,
+  "totalHistoryEntries": 1081,
   "earliestHistoryDate": "1960-01-01",
-  "message": "Still building up recent price history (13/14 days) before suggesting buy/sell timing."
+  "message": "Spot gold is 3.5% below its 90-day high — no strong signal either way."
 }
