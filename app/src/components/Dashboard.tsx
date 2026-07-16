@@ -46,7 +46,7 @@ export function Dashboard({ summary, currency, currentPriceInput, onCurrentPrice
       </div>
 
       <label className="block text-base font-medium text-slate-700">
-        Current price / gram (optional, enter your vendor's rate to see live value)
+        Current price / gram (auto-filled with today's spot rate — edit to use your vendor's rate instead)
         <input
           type="number"
           min="0"

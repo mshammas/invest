@@ -10,8 +10,9 @@ import { createNewPortfolioFile, packPortfolioFile, unpackPortfolioFile, Invalid
 import { openPortfolioFile, saveAsPortfolioFile, saveToHandle } from './lib/fileSystem'
 import { computePortfolioSummary } from './lib/portfolio'
 import { loadDraft, saveDraft } from './lib/autosave'
-import { fetchExchangeRates, loadDisplayCurrencyPref, saveDisplayCurrencyPref } from './lib/currency'
-import type { PortfolioFile, Transaction } from './types'
+import { fetchExchangeRates, loadDisplayCurrencyPref, saveDisplayCurrencyPref, convertFromUsd, GRAMS_PER_TROY_OZ } from './lib/currency'
+import { fetchGoldSignal } from './lib/signal'
+import type { PortfolioFile, Transaction, GoldSignal } from './types'
 
 function suggestedFileName(fileLabel: string): string {
   const safe = fileLabel.trim().replace(/[^a-z0-9-_ ]/gi, '').trim() || 'goldtrack'
@@ -25,6 +26,7 @@ export default function App() {
   const [restoredDraft, setRestoredDraft] = useState(false)
   const [displayCurrency, setDisplayCurrency] = useState(loadDisplayCurrencyPref)
   const [exchangeRates, setExchangeRates] = useState<Record<string, number>>({ USD: 1 })
+  const [goldSignal, setGoldSignal] = useState<GoldSignal | null>(null)
 
   useEffect(() => {
     loadDraft().then((draft) => {
@@ -37,6 +39,10 @@ export default function App() {
 
   useEffect(() => {
     fetchExchangeRates().then(setExchangeRates)
+  }, [])
+
+  useEffect(() => {
+    fetchGoldSignal().then(setGoldSignal)
   }, [])
 
   function handleDisplayCurrencyChange(code: string) {
@@ -54,6 +60,7 @@ export default function App() {
     setPortfolioFile(createNewPortfolioFile(label))
     setFileHandle(null)
     setRestoredDraft(false)
+    setCurrentPriceInput('')
   }
 
   async function handleOpen() {
@@ -64,6 +71,7 @@ export default function App() {
       setPortfolioFile(file)
       setFileHandle(opened.handle)
       setRestoredDraft(false)
+      setCurrentPriceInput('')
     } catch (err) {
       if (err instanceof InvalidPortfolioFileError) {
         alert(err.message)
@@ -111,6 +119,19 @@ export default function App() {
       transactions: portfolioFile.transactions.filter((t) => t.id !== id),
     })
   }
+
+  const spotPricePerGram =
+    portfolioFile && goldSignal
+      ? convertFromUsd(goldSignal.priceUsdPerOz, portfolioFile.settings.currency, exchangeRates) / GRAMS_PER_TROY_OZ
+      : null
+
+  // Pre-fill the price field with today's spot rate so "current value" works
+  // out of the box; a manual edit (e.g. a vendor's actual rate) always wins.
+  useEffect(() => {
+    if (spotPricePerGram != null && currentPriceInput === '') {
+      setCurrentPriceInput(spotPricePerGram.toFixed(2))
+    }
+  }, [spotPricePerGram])
 
   const parsedPrice = parseFloat(currentPriceInput)
   const currentPricePerGram = parsedPrice > 0 ? parsedPrice : null

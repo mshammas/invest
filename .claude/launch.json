@@ -4,8 +4,8 @@
     {
       "name": "goldtrack-dev",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["--prefix", "app", "run", "dev", "--", "--port", "5173"],
-      "port": 5173
+      "runtimeArgs": ["--prefix", "app", "run", "dev", "--", "--port", "5199"],
+      "port": 5199
     }
   ]
 }
