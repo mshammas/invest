@@ -1,11 +1,11 @@
 {
   "status": "HOLD",
-  "asOf": "2026-07-30T08:10:08.869Z",
-  "priceUsdPerOz": 4051.5,
+  "asOf": "2026-07-31T08:37:33.501Z",
+  "priceUsdPerOz": 4060.300049,
   "trailingHighUsdPerOz": 4178.899902,
-  "pctBelowHigh": 0.03048646892428009,
-  "daysOfHistory": 28,
-  "totalHistoryEntries": 1095,
+  "pctBelowHigh": 0.02838063982897482,
+  "daysOfHistory": 29,
+  "totalHistoryEntries": 1096,
   "earliestHistoryDate": "1960-01-01",
-  "message": "Spot gold is 3.0% below its 90-day high — no strong signal either way."
+  "message": "Spot gold is 2.8% below its 90-day high — no strong signal either way."
 }
