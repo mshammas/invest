@@ -1,11 +1,11 @@
 {
   "status": "BUY",
-  "asOf": "2026-11-04T13:32:05.116Z",
-  "priceUsdPerOz": 4036.399902,
+  "asOf": "2026-11-05T13:46:18.555Z",
+  "priceUsdPerOz": 4122.799805,
   "trailingHighUsdPerOz": 4652.299805,
-  "pctBelowHigh": 0.13238611628985497,
+  "pctBelowHigh": 0.11381467708313352,
   "daysOfHistory": 87,
-  "totalHistoryEntries": 1188,
+  "totalHistoryEntries": 1189,
   "earliestHistoryDate": "1960-01-01",
-  "message": "Spot gold is 13.2% below its 90-day high — historically a reasonable time to add to a position."
+  "message": "Spot gold is 11.4% below its 90-day high — historically a reasonable time to add to a position."
 }
